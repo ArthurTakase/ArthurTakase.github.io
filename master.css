@@ -101,6 +101,7 @@
 	width: 640px;
 	margin: 0 auto;
 	font-family: 'Noto Sans JP', sans-serif;
+	text-align: justify;
 }
 
 .button {
@@ -137,4 +138,37 @@ footer {
 .footer_text {
 	font-family: 'Roboto Slab', serif;
 	color: #dcddde;
+}
+
+.picture_left {
+	width: 600px;
+	height: 320px;
+	box-shadow: 1px 1px 12px #24262a;
+}
+
+.zone2_dev{
+	padding-bottom: 60px;
+	padding-top: 60px;
+	display: inline-block;
+	text-align: center;
+}
+
+.game_left {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 600px;
+}
+
+.game_right {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	float: right;
+	width: 600px;
+	margin-left: 30px;
+}
+
+.description_game {
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: justify;
 }
