@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Structure du porte folio*/
+#gallery {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.zone1 {
+	background-color: #f6f6f6;
+	padding-bottom: 60px;
+	padding-top: 30px;
+}
+
+.zone2 {
+	padding-bottom: 60px;
+}
+
+/*Structure d'une ligne du porte folio*/
+.gallery_line {
+	text-align: center;
+}
+
+/*Structure du cadre d'une image du porte folio*/
+.gallery_solo {
+	background-color: white;
+	width: 250px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	padding-bottom: 2px;
+	display: inline-block;
+	margin: 10px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.title_draw {
+	font-weight: bold;
+}
+
+/*Dessins du porte folio*/
+.draw {
+	height: 250px;
+}
+
+.title_page {
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.subtitle {
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 10px;
+}
+
+.link_zone{
+	background-color: #363636;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+.link_header {
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.link_header_title {
+	text-decoration:none;
+	color:white;
+	font-size: 35px;
+	font-family: 'Lobster', cursive;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.year1 {
+	position: sticky;
+	top: 80px;
+	background-color: #f6f6f6;
+	opacity: 95%;
+}
+
+.year2 {
+	position: sticky;
+	top: 80px;
+	background-color: white;
+	opacity: 95%;
+}
+
+body {
+	background-color: White;
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
