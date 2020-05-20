@@ -68,15 +68,15 @@
 }
 
 .link_header {
-	text-decoration:none;
-	color:white;
+	text-decoration: none;
+	color: white;
 	font-size: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .link_header_title {
-	text-decoration:none;
-	color:white;
+	text-decoration: none;
+	color: white;
 	font-size: 35px;
 	font-family: 'Lobster', cursive;
 	padding-left: 10px;
@@ -97,6 +97,33 @@
 	opacity: 95%;
 }
 
+.description {
+	width: 640px;
+	margin: 0 auto;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.button {
+	background-color: #7289da;
+	padding: 10px;
+	border-radius: 10000px;
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: inline-block;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.button_text {
+	color: #ffffff;
+	text-decoration:none;
+}
+
+.button_zone {
+	text-align: center;
+}
+
 body {
 	background-color: #36393f;
 	margin: 0;
@@ -105,5 +132,9 @@ body {
 
 footer {
 	text-align: center;
+}
+
+.footer_text {
 	font-family: 'Roboto Slab', serif;
+	color: #dcddde;
 }
