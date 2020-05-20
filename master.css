@@ -27,6 +27,8 @@
 .gallery_solo {
 	background-color: #36393f;
 	width: 250px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
 	padding-bottom: 2px;
@@ -43,6 +45,8 @@
 /*Dessins du porte folio*/
 .draw {
 	height: 250px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .title_page {
