@@ -142,7 +142,7 @@ footer {
 }
 
 .footer_text {
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: #dcddde;
 }
 
@@ -190,5 +190,46 @@ footer {
 
 .about_zone {
 	width: 600px;
+	margin: 0 auto;
+}
+
+.about_text {
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 10px;
+	text-align: justify;
+}
+
+.reseaux {
+	display: inline-block;
+	margin: 30px;
+	margin-bottom: 20px;
+	background-color: #40444b;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	box-shadow: 1px 1px 12px #24262a;
+}
+
+.reseaux_line {
 	text-align: center;
+	margin: 0 auto;
+}
+
+.reseaux_img {
+	width: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.reseaux_name {
+	font-family: 'Nunito', sans-serif;
+}
+
+.zone1_index {
+	background-color: #2f3136;
+	padding-bottom: 60px;
+	padding-top: 30px;
+	height: 100vh;
 }
