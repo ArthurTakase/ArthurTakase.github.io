@@ -264,7 +264,7 @@ footer {
 	margin-right: 15px;
 	margin-bottom: 5px;
 	transform: rotate(-5deg);
-	transition: all 0.5s ease;
+	/*transition: all 0.5s ease;*/
 }
 
 .reseaux_name {
