@@ -138,13 +138,11 @@
 	margin-right: 10px;
 	display: inline-block;
 	font-family: 'Fjalla One', sans-serif;
+	transition:0.5s;
 }
 
 .button:hover {
-	width: 106px;
-	font-weight: bold;
-	margin-left: 7px;
-	margin-right: 7px;
+	transform: scale(1.1);
 }
 
 .button_img {
@@ -182,6 +180,11 @@ footer {
 	height: 320px;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
+	transition:0.5s;
+}
+
+.picture_left:hover {
+	transform: scale(1.01) rotate(-0.5deg);
 }
 
 .zone2_dev{
@@ -200,6 +203,7 @@ footer {
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
 	box-shadow: 1px 1px 12px #24262a;
+	overflow:hidden;
 }
 
 .description_game {
