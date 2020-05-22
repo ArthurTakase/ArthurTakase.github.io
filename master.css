@@ -176,7 +176,6 @@ footer {
 }
 
 .picture_left {
-	width: 600px;
 	height: 320px;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
@@ -288,4 +287,11 @@ footer {
 	margin-bottom: 30px;
 	height: 50px;
 	width: 100px;
+}
+
+.arrow_low {
+	/*margin-top: 50px;*/
+	/*margin-bottom: 30px;*/
+	height: 40px;
+	width: 70px;
 }
