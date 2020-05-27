@@ -33,7 +33,7 @@ function setTheme(themeName) {
 			document.getElementById("arrow2").setAttribute("src", "img/index/arrow.png");
 			document.getElementById("arrow3").setAttribute("src", "img/index/arrow.png");
 		}
-		document.querySelectorAll(".theme_picture").forEach(el => el.setAttribute("src", "img/all/sun.png"));/*.setAttribute("src", "img/all/sun.png");*/
+		document.querySelectorAll(".theme_picture").forEach(el => el.setAttribute("src", "img/all/sun.png"));
 	}
 }
 // function to toggle between light and dark theme
