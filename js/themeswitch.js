@@ -1,7 +1,5 @@
 // JavaScript Document
 
-var fileName = location.href.split("/").slice(-1); 
-
 // function to set a given theme/color-scheme
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
