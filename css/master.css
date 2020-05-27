@@ -36,7 +36,7 @@
 	margin: 10px;
 	margin-bottom: 10px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	box-shadow: 1px 1px 12px #24262a;
+	box-shadow: 1px 1px var(--shadow-profile) #24262a;
 	overflow:hidden;
 }
 
@@ -201,7 +201,7 @@ footer {
 	border-top-right-radius: 7px;
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
-	box-shadow: 1px 1px 12px #24262a;
+	box-shadow: 1px 1px var(--shadow-profile) #24262a;
 	overflow:hidden;
 }
 
@@ -220,8 +220,8 @@ footer {
 	height: 200px;
 	border-radius: 200px;
 	margin-top: 100px;
-	box-shadow: 1px 1px 12px #24262a;
-	transition:1s;
+	box-shadow: 1px 1px var(--shadow-profile) #24262a;
+	transition: 1s;
 }
 
 .profile:hover {
@@ -250,7 +250,7 @@ footer {
 	border-top-right-radius: 7px;
 	border-bottom-left-radius: 7px;
 	border-bottom-right-radius: 7px;
-	box-shadow: 1px 1px 12px #24262a;
+	box-shadow: 1px 1px var(--shadow-profile) #24262a;
 }
 
 .reseaux_line {
@@ -332,6 +332,7 @@ html {
 	--header-background: #202225;
 	--date-color: gray;
 	--scroll-text: gray;
+	--shadow-profile: 12px;
 }
 
 .theme-light {
@@ -346,4 +347,5 @@ html {
 	--header-background: #e3e5e8;
 	--date-color: White;
 	--scroll-text: gray;
+	--shadow-profile: 8px;
 }
