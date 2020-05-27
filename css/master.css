@@ -9,7 +9,7 @@
 }
 
 .zone1 {
-	background-color: #2f3136;
+	background-color: var(--background-dark);
 	padding-bottom: 60px;
 	padding-top: 30px;
 }
@@ -25,7 +25,7 @@
 
 /*Structure du cadre d'une image du porte folio*/
 .gallery_solo {
-	background-color: #36393f;
+	background-color: var(--background-light);
 	width: 250px;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
@@ -71,11 +71,11 @@
 .date {
 	font-family: 'Nunito', sans-serif;
 	padding-bottom: 10px;
-	color: gray;
+	color: var(--date-color);
 }
 
 .link_zone{
-	background-color: #202225;
+	background-color: var(--header-background);
 	text-align: center;
 	padding: 20px;
 	position: fixed;
@@ -86,7 +86,7 @@
 
 .link_header {
 	text-decoration: none;
-	color: white;
+	color: var(--header-text);
 	font-size: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -98,7 +98,7 @@
 
 .link_header_title {
 	text-decoration: none;
-	color: white;
+	color: var(--header-text);
 	font-size: 35px;
 	font-family: 'Lobster', cursive;
 	padding-left: 10px;
@@ -108,7 +108,7 @@
 .year1 {
 	position: sticky;
 	top: 83px;
-	background-color: #2f3136;
+	background-color: var(--background-dark);
 	opacity: 95%;
 	z-index: 10;
 }
@@ -116,7 +116,7 @@
 .year2 {
 	position: sticky;
 	top: 83px;
-	background-color: #36393f;
+	background-color: var(--background-light);
 	opacity: 95%;
 	z-index: 10;
 }
@@ -129,7 +129,7 @@
 }
 
 .button {
-	background-color: #7289da;
+	background-color: var(--button-background);
 	padding: 10px;
 	border-radius: 10000px;
 	width: 100px;
@@ -151,7 +151,7 @@
 }
 
 .button_text {
-	color: #ffffff;
+	color: var(--button-font);
 	text-decoration:none;
 }
 
@@ -161,9 +161,9 @@
 }
 
 body {
-	background-color: #36393f;
+	background-color: var(--background-light);
 	margin: 0;
-	color: #dcddde;
+	color: var(--font-color);
 }
 
 footer {
@@ -172,7 +172,7 @@ footer {
 
 .footer_text {
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: #dcddde;
+	color: var(--font-color);
 }
 
 .picture_left {
@@ -196,7 +196,7 @@ footer {
 	display: inline-block;
 	margin: 30px;
 	margin-bottom: 20px;
-	background-color: #40444b;
+	background-color: var(--miniature-background);
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	border-bottom-left-radius: 7px;
@@ -245,7 +245,7 @@ footer {
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-bottom: 20px;
-	background-color: #40444b;
+	background-color: var(--reseaux-background);
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	border-bottom-left-radius: 7px;
@@ -276,7 +276,7 @@ footer {
 }
 
 .zone1_index {
-	background-color: #2f3136;
+	background-color: var(--background-dark);
 	padding-bottom: 60px;
 	padding-top: 30px;
 	/*height: 100vh;*/
@@ -292,4 +292,54 @@ footer {
 .arrow_low {
 	height: 40px;
 	width: 70px;
+}
+
+.btn_theme {
+	background-color: var(--header-background);
+	border: none;
+	position: absolute;
+	top: 0px;
+    right: 0px;
+}
+
+.btn_theme img {
+	height: 35px;
+	padding: 20px;
+}
+
+.btn_theme:focus {
+	outline:0;
+}
+
+html {
+	animation-delay: 0.5;
+}
+
+.zone1_index date {
+	color: var();
+}
+
+.theme-dark {
+    --font-color: #dcddde;
+	--background-light: #36393f;
+	--background-dark: #2f3136;
+	--button-font: #ffffff;
+	--button-background: #7289da;
+	--miniature-background: #40444b;
+	--header-text: white;
+	--header-background: #202225;
+	--date-color: gray;
+}
+
+.theme-light {
+	--font-color: #36393f;
+	--background-light: White;
+	--background-dark: #f2f3f5;
+	--button-font: White;
+	--button-background: #36393f;
+	--miniature-background: #f2f3f5;
+	--reseaux-background: White;
+	--header-text: #36393f;
+	--header-background: #e3e5e8;
+	--date-color: White;
 }
