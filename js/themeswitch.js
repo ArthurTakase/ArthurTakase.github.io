@@ -7,33 +7,29 @@ function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
     document.documentElement.className = themeName;
 	if (themeName === 'theme-light') {
-		if (fileName == "index.html") {
-			document.getElementById("yt").setAttribute("src", "img/index/yt_light.png");
-			document.getElementById("twitter").setAttribute("src", "img/index/twitter_light.png");
-			document.getElementById("twitter1").setAttribute("src", "img/index/twitter_light.png");
-			document.getElementById("git").setAttribute("src", "img/index/git_light.png");
-			document.getElementById("discord").setAttribute("src", "img/index/discord_light.png");
-			document.getElementById("arrow").setAttribute("src", "img/index/arrow_light.png");
-			document.getElementById("arrow1").setAttribute("src", "img/index/arrow_light.png");
-			document.getElementById("arrow2").setAttribute("src", "img/index/arrow_light.png");
-			document.getElementById("arrow3").setAttribute("src", "img/index/arrow_light.png");
-		}
+		document.getElementById("yt")?.setAttribute("src", "img/index/yt_light.png");
+		document.getElementById("twitter")?.setAttribute("src", "img/index/twitter_light.png");
+		document.getElementById("twitter1")?.setAttribute("src", "img/index/twitter_light.png");
+		document.getElementById("git")?.setAttribute("src", "img/index/git_light.png");
+		document.getElementById("discord")?.setAttribute("src", "img/index/discord_light.png");
+		document.getElementById("arrow")?.setAttribute("src", "img/index/arrow_light.png");
+		document.getElementById("arrow1")?.setAttribute("src", "img/index/arrow_light.png");
+		document.getElementById("arrow2")?.setAttribute("src", "img/index/arrow_light.png");
+		document.getElementById("arrow3")?.setAttribute("src", "img/index/arrow_light.png");
 		document.querySelectorAll(".theme_picture").forEach(el => el.setAttribute("src", "img/all/moon.png"));
 		
 	}
 	else {
-		if (fileName == "index.html") {
-			document.getElementById("yt").setAttribute("src", "img/index/yt.png");
-			document.getElementById("twitter").setAttribute("src", "img/index/twitter.png");
-			document.getElementById("twitter1").setAttribute("src", "img/index/twitter.png");
-			document.getElementById("git").setAttribute("src", "img/index/git.png");
-			document.getElementById("discord").setAttribute("src", "img/index/discord.png");
-			document.getElementById("arrow").setAttribute("src", "img/index/arrow.png");
-			document.getElementById("arrow1").setAttribute("src", "img/index/arrow.png");
-			document.getElementById("arrow2").setAttribute("src", "img/index/arrow.png");
-			document.getElementById("arrow3").setAttribute("src", "img/index/arrow.png");
-		}
-		document.querySelectorAll(".theme_picture").forEach(el => el.setAttribute("src", "img/all/sun.png"));
+		document.getElementById("yt")?.setAttribute("src", "img/index/yt.png");
+		document.getElementById("twitter")?.setAttribute("src", "img/index/twitter.png");
+		document.getElementById("twitter1")?.setAttribute("src", "img/index/twitter.png");
+		document.getElementById("git")?.setAttribute("src", "img/index/git.png");
+		document.getElementById("discord")?.setAttribute("src", "img/index/discord.png");
+		document.getElementById("arrow")?.setAttribute("src", "img/index/arrow.png");
+		document.getElementById("arrow1")?.setAttribute("src", "img/index/arrow.png");
+		document.getElementById("arrow2")?.setAttribute("src", "img/index/arrow.png");
+		document.getElementById("arrow3")?.setAttribute("src", "img/index/arrow.png");
+		document.querySelectorAll(".theme_picture")?.forEach(el => el.setAttribute("src", "img/all/sun.png"));
 	}
 }
 // function to toggle between light and dark theme
