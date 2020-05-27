@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="css/master.css">
-	<script src="js/themeswitch.js" type="text/javascript"></script>
+	<script src="js/themeswitch.js" type="text/javascript" defer></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
@@ -15,6 +15,9 @@
 
 <body>
 	<div class="link_zone">
+		<div class="switch_theme_zone">
+			<button class="btn_theme" onclick="toggleTheme()"><img class="theme_picture" src="img/all/sun.png" alt="time"></button>
+		</div>
 		<a class="link_header" href="draw.html">Draw</a>
 		<a class="link_header_title" href="index.html">Takase</a>
 		<a class="link_header" href="dev.html">Dev</a>

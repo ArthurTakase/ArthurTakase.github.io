@@ -315,8 +315,10 @@ html {
 	animation-delay: 0.5;
 }
 
-.zone1_index date {
-	color: var();
+.scroll_text {
+	color: var(--scroll-text);
+	font-family: 'Nunito', sans-serif;
+	padding-bottom: 10px;
 }
 
 .theme-dark {
@@ -329,6 +331,7 @@ html {
 	--header-text: white;
 	--header-background: #202225;
 	--date-color: gray;
+	--scroll-text: gray;
 }
 
 .theme-light {
@@ -342,4 +345,5 @@ html {
 	--header-text: #36393f;
 	--header-background: #e3e5e8;
 	--date-color: White;
+	--scroll-text: gray;
 }
