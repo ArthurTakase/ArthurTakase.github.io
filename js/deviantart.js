@@ -15,6 +15,7 @@ async function fetch_data(url) {
 
 async function get_images() {
     const token = get_token();
+    const offset = 0;
     const gallery = "BCFE40F1-C2FF-9DDA-30E5-B18D1C3695B4";
     const url = `https://www.deviantart.com/api/v1/oauth2/gallery/${gallery}?username=Takaaase&access_token=${token}&limit=24`;
     let picture = await fetch_data(url);
@@ -26,7 +27,8 @@ async function get_images() {
                 img_url.push(result.content.src);
             }
         }
-        picture = await fetch_data(url + `&offset=${picture.next_offset}`);
+        offset = offset + picture.next_offset;
+        picture = await fetch_data(url + `&offset=${offset}`);
     }
     return img_url;
 }
