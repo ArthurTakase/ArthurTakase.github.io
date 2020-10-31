@@ -31,13 +31,17 @@ async function get_images() {
     return img_url;
 }
 
-const gallery_line = document.querySelector(".gallery_line");
-const pictures = get_images();
+async function create_img() {
+    const gallery_line = document.querySelector(".gallery_line");
+    const pictures = await get_images();
 
-for (picture of pictures)  {
-    const gallery_solo = document.createElement("div.gallery_solo");
-    const image = document.createElement("img.draw");
-    img.src = picture;
-    gallery_solo.appendChild(image);
-    gallery_line.appendChild(gallery_solo);
+    for (picture of pictures)  {
+        const gallery_solo = document.createElement("div.gallery_solo");
+        const image = document.createElement("img.draw");
+        img.src = picture;
+        gallery_solo.appendChild(image);
+        gallery_line.appendChild(gallery_solo);
+    }
 }
+
+create_img();
