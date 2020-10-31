@@ -18,9 +18,10 @@ async function get_images() {
     let offset = 0;
     const gallery = "BCFE40F1-C2FF-9DDA-30E5-B18D1C3695B4";
     const url = `https://www.deviantart.com/api/v1/oauth2/gallery/${gallery}?username=Takaaase&access_token=${token}&limit=24`;
-    let picture = await fetch_data(url);
+    let picture;
     let img_url = [];
-    while (picture.next_offset != null) {
+    do {
+        picture = await fetch_data(url + `&offset=${offset}`);
         const results = picture.results;
         for (result of results) {
             if (result.content) {
@@ -28,8 +29,7 @@ async function get_images() {
             }
         }
         offset = offset + picture.next_offset;
-        picture = await fetch_data(url + `&offset=${offset}`);
-    }
+    } while (picture.next_offset != null);
     return img_url;
 }
 
