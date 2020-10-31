@@ -1,5 +1,5 @@
 if (!window.location.hash.includes("access_token=")) {
-    window.location = `https://www.deviantart.com/oauth2/authorize?response_type=token&client_id=13754&redirect_uri=${window.location.origin + window.location.pathname}&state=coucou&scope=browse`;
+    window.location = `https://www.deviantart.com/oauth2/authorize?response_type=token&client_id=13758&redirect_uri=${window.location.origin + window.location.pathname}&state=coucou&scope=browse`;
 }
 
 function get_token() {
