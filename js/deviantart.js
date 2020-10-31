@@ -23,12 +23,12 @@ async function get_images() {
         const results = picture.results;
         for (result of results) {
             if (result.content) {
-                picture.push(result.content.src);
+                img_url.push(result.content.src);
             }
         }
-        picture = fecth(url + `&offset=${picture.next_offset}`);
+        picture = await fecth_data(url + `&offset=${picture.next_offset}`);
     }
-    return picture;
+    return img_url;
 }
 
 const gallery_line = document.querySelector(".gallery_line");
