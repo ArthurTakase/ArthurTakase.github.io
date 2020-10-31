@@ -8,7 +8,7 @@ function get_token() {
 }
 
 async function fetch_data(url) {
-    const response = fetch(url, {mode: 'no-cors'});
+    const response = await fetch(url, {mode: 'no-cors'});
     const data = await response.json();
     return data;
 }
