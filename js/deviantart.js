@@ -38,7 +38,7 @@ async function create_img() {
     for (picture of pictures)  {
         const gallery_solo = document.createElement("div.gallery_solo");
         const image = document.createElement("img.draw");
-        img.src = picture;
+        image.src = picture;
         gallery_solo.appendChild(image);
         gallery_line.appendChild(gallery_solo);
     }
