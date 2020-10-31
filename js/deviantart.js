@@ -26,7 +26,7 @@ async function get_images() {
                 img_url.push(result.content.src);
             }
         }
-        picture = await fecth_data(url + `&offset=${picture.next_offset}`);
+        picture = await fetch_data(url + `&offset=${picture.next_offset}`);
     }
     return img_url;
 }
