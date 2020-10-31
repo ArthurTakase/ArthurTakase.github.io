@@ -22,7 +22,9 @@ async function get_images() {
     while (picture.next_offset != null) {
         const results = picture.results;
         for (result of results) {
-            picture.push(result.content.src);
+            if (result.content) {
+                picture.push(result.content.src);
+            }
         }
         picture = fecth(url + `&offset=${picture.next_offset}`);
     }
