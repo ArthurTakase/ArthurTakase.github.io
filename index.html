@@ -1,111 +1,38 @@
 <!doctype html>
-<html lang="fr" class="theme-dark">
+<html>
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="css/master.css">
-	<link rel="stylesheet" href="css/theme.css">
-	<script src="js/themeswitch.js" type="text/javascript" defer></script>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-	<link rel="shortcut icon" type="image/png" href="img/all/favicon.png"/>
-	<title>Takase - Accueil</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="boostrap.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<title>ArthurTakase</title>
 </head>
 
 <body>
-	<div class="link_zone">
-		<div class="switch_theme_zone">
-			<button class="btn_theme" onclick="toggleTheme()"><img class="theme_picture" src="img/all/sun.png" alt="time"></button>
-		</div>
-		<a class="link_header" href="draw.html">Draw</a>
-		<a class="link_header_title" href="index.html">Takase</a>
-		<a class="link_header" href="dev.html">Dev</a>
-	</div>
-	<div class="gallery">
-		<div class="zone1_index">
-			<div class="about_zone">
-				<img src="img/index/portrait2.jpg" class="profile" alt="profile">
-				<p class="title_page">Arthur "Takase"</p>
-				<p class="about_text">Haec et huius modi quaedam innumerabilia ultrix facinorum impiorum bonorumque praemiatrix aliquotiens operatur Adrastia atque utinam semper quam vocabulo duplici etiam Nemesim appellamus: ius quoddam sublime numinis efficacis, humanarum mentium opinione lunari circulo superpositum, vel ut definiunt alii, substantialis tutela generali potentia partilibus praesidens fatis, quam theologi veteres fingentes Iustitiae filiam ex abdita quadam aeternitate tradunt omnia despectare terrena.</p>
-			</div>
-			<p class="scroll_text">Scrolle pour plus d'infos !</p>
-			<img class="arrow" src="img/index/arrow.png" alt="arrow" id="arrow">
-		</div>
-
-	  <div class="zone2">
-			<p class="title_page">Mes Créations</p>
-		  <hr width="10%"><br>
-		  <p class="subtitle">Un aperçu de ce que je fais ? C'est par ici !</p>
-		  <div class="dev_line">
-			  <div class="game_view">
-					<img class="picture_left" src="img/index/dev.png" alt="dev">
-					<p class="title_page">Mes Programmes</p>
-				  <img class="arrow_low" src="img/index/arrow.png" alt="arrow" id="arrow1">
-					<div class="button_zone">
-						<div class="button" >
-							<a class="button_text" href="dev.html">Voir plus</a>
-						</div>
-					</div>
-				</div>
-				<div class="game_view">
-					<img class="picture_left" src="img/index/draw.png" alt="draw">
-					<p class="title_page">Mes Dessins</p>
-					<img class="arrow_low" src="img/index/arrow.png" alt="arrow" id="arrow2">
-				  <div class="button_zone">
-						<div class="button">
-							<a class="button_text" href="draw.html">Voir plus</a>
-						</div>
-					</div>
-				</div>
-		</div>
-	  </div>
-
-		<div class="zone1">
-			<p class="title_page">Mes réseaux</p>
-			<hr width="10%"><br>
-			<p class="subtitle">Venez me suivre ici si vous ne savez pas quoi faire !</p>
-			<div class="reseaux_line">
-				<div class="reseaux">
-					<img id="discord" class="reseaux_img" src="img/index/discord.png" alt="discord">
-					<p class="reseaux_name">Takase#1347</p>
-				</div>
-				<div class="reseaux">
-					<a href="https://github.com/ArthurTakase" target="_blank"><img id="git" class="reseaux_img" src="img/index/git.png" alt="github"></a>
-					<p class="reseaux_name">ArthurTakase</p>
-				</div>
-				<div class="reseaux">
-					<a href="https://twitter.com/TakaseShitpost" target="_blank"><img id="twitter" class="reseaux_img" src="img/index/twitter.png" alt="Twitter Shitpost"></a>
-					<p class="reseaux_name">@TakaseShitpost</p>
-				</div>
-				<div class="reseaux">
-					<a href="https://twitter.com/TakaseDraw" target="_blank"><img id="twitter1" class="reseaux_img" src="img/index/twitter.png" alt="Twitter Dessin"></a>
-					<p class="reseaux_name">@TakaseDraw</p>
-				</div>
-				<div class="reseaux">
-					<a href="https://www.youtube.com/channel/UCKtk2Baz1gMiBBoaXWFjjfQ" target="_blank"><img id="yt" class="reseaux_img" src="img/index/yt.png" alt="Youtube"></a>
-					<p class="reseaux_name">Arthur</p>
-				</div>
-			</div>
-		</div>
-
-		<div class="zone2">
-			<p class="title_page">Tu veux faire un don ?</p>
-			<hr width="10%"><br>
-			<p class="subtitle">Ça serait vraiment sympa !<br>Chaque don permet d'avoir un petit dessin, alors hésites pas !<br>(Mettez un moyen de communication dans le message Paypal pour que je puisse vous contacter facilement).</p>
-			<img class="arrow" src="img/index/arrow.png" alt="arrow" id="arrow3">
-			<div class="reseaux_line">
-				<div class="button_zone">
-					<div class="button">
-						<a class="button_text" href="https://www.paypal.me/ArthurDraw" target="_blank">Merci !</a>
-					</div>
-				</div>
+	<div class="home-panel">
+		<div class="home-elem">
+			<p class="title">Hello, I'm</p>
+			<p class="subtitle">Arthur 'Takase' Decaen</p>
+			<div class="zone-button">
+				<!-- Ajouter autant de bouton que necessaire ici -->
+				<div class="button"><a href="https://takaaase.artstation.com/" target="_blank">Artstation</a></div>
+				<div class="button"><a href="https://github.com/ArthurTakase" target="_blank">Github</a></div>
+				<div class="button"><a href="https://www.linkedin.com/in/arthur-decaen-a49335207/" target="_blank">LinkedIn</a></div>
 			</div>
 		</div>
 	</div>
+	<div class="game-title"><p>Want to play a game?</p></div>
+	<div class="show-panel">
+		<!-- Ajouter autant de show-elemn que necessaire ici -->
+		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Elle/">Play</a></div><img src="img/2.png" alt="k-on!"></div>
+		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Carottes/">Play</a></div><img src="img/3.png" alt="k-on!"></div>
+		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Random-Story/">Play</a></div><img src="img/4.png" alt="k-on!"></div>
+		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Klepto/">Play</a></div><img src="img/1.png" alt="k-on!"></div>
+	</div>
+	<div class="game-subtitle"><p>More programs on my github page!</p></div>
 </body>
-<footer>
-<p class="footer_text"><b>Tous droits réservés ©Takase - 2020</b></p>
-</footer>
 </html>
