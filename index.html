@@ -1,39 +1,173 @@
-<!doctype html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="boostrap.css" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
-	<title>ArthurTakase</title>
-</head>
-
-<body>
-	<div class="home-panel">
-		<div class="home-elem">
-			<p class="title">Hello, I'm</p>
-			<p class="subtitle">Arthur 'Takase' Decaen</p>
-			<div class="zone-button">
-				<!-- Ajouter autant de bouton que necessaire ici -->
-				<div class="button"><a href="https://takaaase.artstation.com/" target="_blank">Artstation</a></div>
-				<div class="button"><a href="https://github.com/ArthurTakase" target="_blank">Github</a></div>
-				<div class="button"><a href="https://www.linkedin.com/in/arthur-decaen-a49335207/" target="_blank">LinkedIn</a></div>
-			</div>
-		</div>
-	</div>
-	<div class="game-title"><p>Want to play a game?</p></div>
-	<div class="show-panel">
-		<!-- Ajouter autant de show-elemn que necessaire ici -->
-		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Elle/">Play</a></div><img src="img/2.png" alt="k-on!"></div>
-		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Carottes/">Play</a></div><img src="img/3.png" alt="k-on!"></div>
-		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Random-Story/">Play</a></div><img src="img/4.png" alt="k-on!"></div>
-		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Klepto/">Play</a></div><img src="img/1.png" alt="k-on!"></div>
-		<div class="show-elem"><div class="play-button button"><a href="https://arthurtakase.github.io/Twins/">Play</a></div><img src="img/5.png" alt="k-on!"></div>
-	</div>
-	<div class="game-subtitle"><p>More programs on my github page!</p></div>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>ArthurTakase</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Simple line icons-->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <!-- Font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap" rel="stylesheet">
+    </head>
+    <body id="page-top">
+        <!-- Navigation -->
+        <!-- Cette partie est le menu qui permet de naviguer entre les différentes zones du site en fonction de l'id définit -->
+        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
+                <li class="sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="sidebar-nav-item"><a href="#contact">Networks & Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Header -->
+        <!-- Zone de tête avec Nom et Prénom -->
+        <header class="masthead d-flex align-items-center">
+            <div class="container px-4 px-lg-5 text-center">
+                <h3 class="mb-1 text-secondary lato">Hello, I'm</h1>
+                <h1 class="mb-1 white open_sans"><em>Arthur Decaen</em></h3>
+                <!-- Bouton pour avoir plus d'informations, changer la zone redirigée si besoin -->
+                <a class="btn btn-primary btn-xl dark" href="#portfolio">Find Out More</a>
+            </div>
+        </header>
+        <!-- Portfolio -->
+        <section class="content-section black" id="portfolio">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading text-center">
+                    <h3 class="text-secondary mb-0">Portfolio</h3>
+                    <h2 class="mb-5 white">Recent Projects</h2>
+                </div>
+                <div class="row gx-0">
+                    <!-- Element du portefolio (copier/coller à l'infini dans cette div si besoin) -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://arthurtakase.github.io/Elle/" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- Titre du projet -->
+                                    <div class="h2">Elle</div>
+                                    <!-- Description du projet -->
+                                    <p class="mb-0">Follow the story of a young man through different periods of his life.<br><i>{Epitech Jam 2021}</i></p>
+                                </div>
+                            </div>
+                            <!-- Image de fond du projet (700x467)-->
+                            <img class="img-fluid" src="assets/projects/elle.png" alt="..." />
+                        </a>
+                    </div>
+                    <!-- Element du portefolio (copier/coller à l'infini dans cette div si besoin) -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://arthurtakase.github.io/Carottes/" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- Titre du projet -->
+                                    <div class="h2">Carotte</div>
+                                    <!-- Description du projet -->
+                                    <p class="mb-0">Don't let your plantations burn !<br><i>{3h-jam 2021}</i></p>
+                                </div>
+                            </div>
+                            <!-- Image de fond du projet (700x467)-->
+                            <img class="img-fluid" src="assets/projects/carottes.png" alt="..." />
+                        </a>
+                    </div>
+                    <!-- Element du portefolio (copier/coller à l'infini dans cette div si besoin) -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://arthurtakase.github.io/Klepto/" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- Titre du projet -->
+                                    <div class="h2">Klepto</div>
+                                    <!-- Description du projet -->
+                                    <p class="mb-0">Steal as many objects as possible before the police arrive and catch you.<br><i>{GGJ 2021}</i></p>
+                                </div>
+                            </div>
+                            <!-- Image de fond du projet (700x467)-->
+                            <img class="img-fluid" src="assets/projects/klepto.png" alt="..." />
+                        </a>
+                    </div>
+                    <!-- Element du portefolio (copier/coller à l'infini dans cette div si besoin) -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://arthurtakase.github.io/Random-Story/" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- Titre du projet -->
+                                    <div class="h2">Random Story</div>
+                                    <!-- Description du projet -->
+                                    <p class="mb-0">JS adaptation of the game <i>"Comment j'ai adopté un gnou"</i> where you have to create a story from different elements.</p>
+                                </div>
+                            </div>
+                            <!-- Image de fond du projet (700x467)-->
+                            <img class="img-fluid" src="assets/projects/randomstory.png" alt="..." />
+                        </a>
+                    </div>
+                    <!-- Element du portefolio (copier/coller à l'infini dans cette div si besoin) -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://arthurtakase.github.io/Twins/" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- Titre du projet -->
+                                    <div class="h2">Twins</div>
+                                    <!-- Description du projet -->
+                                    <p class="mb-0">Make your way through a dark forest with the help of a strange ally.<br><i>{Epitech Jam 2021}</i></p>
+                                </div>
+                            </div>
+                            <!-- Image de fond du projet (700x467)-->
+                            <img class="img-fluid" src="assets/projects/twin.png" alt="..." />
+                        </a>
+                    </div>
+                    <!-- Element du portefolio (copier/coller à l'infini dans cette div si besoin) -->
+                    <div class="col-lg-6">
+                        <a class="portfolio-item" href="https://takase.itch.io/where-is-patrick" target="_blank">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <!-- Titre du projet -->
+                                    <div class="h2">Where is Patrick</div>
+                                    <!-- Description du projet -->
+                                    <p class="mb-0">Find Patrick in a crowd of people !<br><i>{Epitech Jam 2021}</i></p>
+                                </div>
+                            </div>
+                            <!-- Image de fond du projet (700x467)-->
+                            <img class="img-fluid" src="assets/projects/patrick.png" alt="..." />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer text-center dark" id="contact">
+            <div class="content-section-heading text-center">
+                <h3 class="mb-4 white">Networks & Contact</h3>
+            </div>
+            <div class="container px-4 px-lg-5">
+                <ul class="list-inline mb-5">
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://takaaase.artstation.com/" target="_blank"><i class="fab fa-artstation"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/arthur-decaen-a49335207/" target="_blank"><i class="icon-social-linkedin"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a class="social-link rounded-circle text-white" href="https://github.com/ArthurTakase" target="_blank"><i class="icon-social-github"></i></a>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-0">Copyright &copy; Arthur Decaen 2021</p>
+            </div>
+        </footer>
+        <!-- Scroll to Top Button -->
+        <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+        <!-- Bootstrap core JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS -->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
