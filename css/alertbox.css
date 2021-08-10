@@ -1,0 +1,32 @@
+.alert {
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.alert p {
+    padding: 1rem;
+}
+
+.alert-warning {
+    color: #721C24;
+    background-color: #F8D7DA;
+    border-color: #F5C6CB;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #D4EDDA;
+    border-color: #C3E6CB;
+}
+
+.alert-primary {
+    color: #0083D1;
+    background-color: #CCE5FF;
+    border-color: #B8DAFF;
+}
+
+.alert a {
+    font-weight: bold;
+    color: #721C24;
+}
