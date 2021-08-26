@@ -1,0 +1,21 @@
+.circle-btn {
+    /* height: 1rem;
+    width: 1rem; */
+    border-radius: 0.5rem;
+    border-color: #FE938C;
+    /* background: #fe948c52; */
+    background: none;
+    min-width: 4rem;
+    padding: 0.2rem;
+    color: #fe948c;
+    /* color: #b9463e; */
+    font-weight: bold;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
+}
+
+.circle-label {
+    color: #FE938C;
+    padding-left: 0.3rem;
+    font-size: 0.9rem;
+}

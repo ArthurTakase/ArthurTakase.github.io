@@ -7,8 +7,11 @@
         <link rel="stylesheet" href="css/alertbox.css"/>
         <link rel="stylesheet" href="css/card.css"/>
         <link rel="stylesheet" href="css/button.css"/>
+        <link rel="stylesheet" href="css/writer.css"/>
+        <link rel="stylesheet" href="css/sort.css"/>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="js/hideProject.js"></script>
         <script src="https://kit.fontawesome.com/3ecf11c032.js" crossorigin="anonymous"></script>
         <title>ArthurTakase</title>
     </head>
@@ -63,10 +66,14 @@
                     </svg>
                 </div>
 
+                <!-- <div class="writer">
+                    <h3 class="writer-txt">Hi, I'm Arthur DECAEN !</h1>
+                </div> -->
+
                 <div class="about-txt">
                     <p>
-                        Hi, I'm <em style="color: #FE938C;">Arthur DECAEN</em> !<br>
-                        <br>
+                        <!-- Hi, I'm <em style="color: #FE938C;">Arthur DECAEN</em> !<br> -->
+                        <!-- <br> -->
                         In my 2nd year at <em style="color: #FE938C;">Epitech</em>, I love 🖥️ Dev and 🖌️ drawing in my free time.<br>
                         As a fan of Naughty Dog, GUNNM or even Parasyte, I am training to reach their level one day!<br>
                         <br>
@@ -86,46 +93,59 @@
         <section id="project-pro">
             <div class="main"><h1 class="title">Professional projects</h1></div>
 
-            <div class="main card-list">
-
-                <!-- Carttet -->
-                <article class="card">
-                    <img src="https://zupimages.net/up/21/32/vzvv.png" class="card_img">
-                    <header class="card-header">
-                        <p>Summer 2021</p>
-                        <h2>Carttet 2</h2>
-                        <hr>
-                        <p>Job application allowing agents to transmit their unused vacation days to human resources.</p>
-                    </header>
-
-                    <div class="tag-zone">
+            <div class="main cards-v">
+                <div class="card-v">
+                    <img src="https://zupimages.net/up/21/32/vzvv.png" alt=""/>
+                    <div class="card-v-info">
+                        <!-- Changer police d'écriture -->
+                        <p class="card-v-title">CARTTET <span class="card-v-subtitle">Département de la Gironde</span></p>
+                        <p class="card-v-desc">Job application allowing agents to transmit their unused vacation days to human resources.</p>
+                    </div>
+                    <div class="tags-v">
                         <div class="tags">
                             <a>Grails</a>
                             <a>Groovy</a>
                             <a>PostgreSQL</a>
-                            <a>GSP</a>
                             <a><i class="fab fa-css3-alt"></i></a>
                         </div>
                     </div>
-                </article>
-                
+                </div>
             </div>
+
         </section>
 
         <section id="project-perso">
             <div class="main"><h1 class="title">Personal projects</h1></div>
 
-            <div class="main">
-                <div class="alert alert-warning">
-                    <p>The software are being uploaded and are therefore not all present on the site.<br>
-                        You can go on my <a href="https://github.com/ArthurTakase?tab=repositories" target="_blank">github</a> to see the missing ones.</p>
-                </div>
-            </div>    
+            <div class="alert alert-primary">
+                <p>
+                    <i class="fas fa-exclamation-triangle"></i>
+                    The software are being uploaded and are therefore not all present on the site.<br>
+                    You can go on my <a href="https://github.com/ArthurTakase?tab=repositories" target="_blank">github</a> to see the missing ones.
+                </p>
+            </div>
+
+            <div class="alert alert-secondary">
+                <p>
+                    <i class="fas fa-info-circle"></i>
+                    You can click on the <a><i class="fab fa-github-alt"></i></a> to access the source code of the application
+                    and the <a><i class="fas fa-gamepad"></i></a> to launch it in your browser.
+                </p>
+            </div>
+
+            <br>
+
+            <div class="sort-zone">
+                <button class="circle-btn" id="btn-all" onclick='hide_elem("card", 0)' style="background: #FE938C; color: #b9463e">All</button>
+                <button class="circle-btn" id="btn-game" onclick='hide_elem("type-game", 1)'>Games</button>
+                <button class="circle-btn" id="btn-prog" onclick='hide_elem("type-prog", 2)'>Softwares</button>
+                <button class="circle-btn" id="btn-school" onclick='hide_elem("type-school", 3)'>School</button>
+            </div>
 
             <div class="main card-list">
 
                 <!-- Elle -->
-                <article class="card">
+                <article class="card type-game">
                     <img src="img/projects/elle.png" class="card_img">
                     <header class="card-header">
                         <p>Feb 2021</p>
@@ -145,7 +165,7 @@
                 </article>
 
                 <!-- Carotte -->
-                <article class="card">
+                <article class="card type-game">
                     <img src="img/projects/carottes.png" class="card_img">
                     <header class="card-header">
                         <p>Feb 2021</p>
@@ -165,7 +185,7 @@
                 </article>
 
                 <!-- Klepto -->
-                <article class="card">
+                <article class="card type-game">
                     <img src="img/projects/klepto.png" class="card_img">
                     <header class="card-header">
                         <p>Feb 2021</p>
@@ -185,7 +205,7 @@
                 </article>
 
                 <!-- Random Story -->
-                <article class="card">
+                <article class="card type-game">
                     <img src="img/projects/randomstory.png" class="card_img">
                     <header class="card-header">
                         <p>Oct 2020</p>
@@ -206,7 +226,7 @@
                 </article>
 
                 <!-- Twins -->
-                <article class="card">
+                <article class="card type-game">
                     <img src="img/projects/twin.png" class="card_img">
                     <header class="card-header">
                         <p>Mar 2021</p>
@@ -226,7 +246,7 @@
                 </article>
 
                 <!-- Where is Patrick -->
-                <article class="card">
+                <article class="card type-game">
                     <img src="img/projects/patrick.png" class="card_img">
                     <header class="card-header">
                         <p>May 2021</p>
@@ -245,7 +265,7 @@
                 </article>
 
                 <!-- Epitech -->
-                <article class="card">
+                <article class="card type-prog type-school">
                     <img src="https://zupimages.net/up/21/32/x8qi.jpg" class="card_img">
                     <header class="card-header">
                         <p>2020-2021</p>
