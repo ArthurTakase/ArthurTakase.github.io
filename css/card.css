@@ -53,9 +53,9 @@ a {
     transform: translateY(-1rem);
 }
 
-.card:first-child {
+/* .card:first-child {
     margin-left: -10px;
-}
+} */
 
 .card {
     border: solid;
