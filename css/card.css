@@ -69,6 +69,9 @@ a {
     margin-bottom: auto;
     padding: 1.5rem;
     padding-bottom: 0rem;
+    overflow: hidden; 
+    /* white-space:nowrap;  */
+    text-overflow: ellipsis;
 }
 
 .card-header p {
@@ -77,14 +80,24 @@ a {
     color: #7a7a8c;
 }
 
-.card-header h2 {
-    font-size: 20px;
+.card-header .card-title {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1rem;
     margin: .25rem 0 auto;
     text-decoration: none;
     color: inherit;
     border: 0;
     display: inline-block;
     cursor: pointer;
+}
+
+.card-header .card-title:hover {
+    color: #D3FFF3;
+}
+
+.card-header .no-link {
+    cursor: unset;
 }
 
 .card-header h2:hover {
@@ -102,46 +115,6 @@ a {
     grid-template-columns: 75px 1fr;
     align-items: center;
     position: relative;
-}
-
-.author-avatar {
-    grid-area: auto;
-    align-self: start;
-    position: relative;
-    box-sizing: border-box;
-}
-
-.author-avatar img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: block;
-    overflow: hidden;
-    margin: 16px 10px;
-}
-
-.author-name {
-    grid-area: auto;
-    box-sizing: border-box;
-}
-
-.author-name-prefix {
-    font-style: normal;
-    font-weight: 700;
-    color: #7a7a8c;
-}
-
-.half-circle {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 60px;
-    height: 48px;
-    fill: none;
-    stroke: #FE938C;
-    stroke-width: 8;
-    stroke-linecap: round;
-    pointer-events: none;
 }
 
 .tags {
@@ -182,7 +155,7 @@ opacity: 1;
     display: block;
     overflow: hidden;
     width: 100%;
-    height: 100px;
+    height: 70px;
     object-fit: cover;
     /* padding: 1.5rem; */
 }
@@ -190,5 +163,5 @@ opacity: 1;
 .tag-zone {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-bottom: 1rem;
+    /* padding-bottom: 1rem; */
 }
