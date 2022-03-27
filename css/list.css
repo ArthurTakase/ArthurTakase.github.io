@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap');
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card-list {
+    display: flex;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    /* padding-top: 1.5rem; */
+    overflow-x: scroll;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-list::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #FE938C;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    z-index: 100;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.card {
+    max-width: 350px;
+    min-width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex-direction: column;
+    transition: .4s;
+    margin: 5px;
+    scroll-snap-align: start;
+    position: relative;
+    overflow: hidden;
+    background: #2f3136;
+}
+
+.card:hover .card-img {
+    opacity: 10%;
+}
+
+.card:hover .card-infos,
+.card:hover .card-tag,
+.card:hover .card-link {
+    opacity: 100%;
+}
+
+.card .card-infos,
+.card .card-tag,
+.card .card-link {
+    opacity: 0%;
+    transition-duration: .4s;
+}
+
+.card-infos {
+    position: absolute;
+    bottom: 5px;
+}
+
+.card-header {
+    font-weight: bold;
+    color: #ff8585;
+    margin-bottom: -10px;
+    font-size: 1.5rem;
+    transition-duration: 0.3s;
+    /* border-radius: 10px; */
+    /* width: 100%; */
+    /* padding: 5px; */
+}
+
+.card-desc {
+    font-size: .8rem;
+}
+
+.card-tag {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #ff8585;
+    font-size: 1.3rem;
+}
+
+.card-tag a {
+    margin-right: 5px;
+}
+
+.card-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #c1fff4;
+    font-size: 1.3rem;
+}
+
+.card-link a {
+    margin-left: 5px;
+}
+
+.card-img {
+    height: 200px;
+    object-fit: cover;
+    /* width: auto; */
+    transition-duration: .4s;
+}
