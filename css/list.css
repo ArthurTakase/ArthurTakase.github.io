@@ -52,8 +52,19 @@ a {
     background: #2f3136;
 }
 
+.card:hover .card-img-with-video {
+    /* opacity: 10%; */
+    display: none;
+}
+
 .card:hover .card-img {
     opacity: 10%;
+    /* display: none; */
+}
+
+.card:hover .card-gif {
+    display: block;
+    opacity: 30%;
 }
 
 .card:hover .card-infos,
@@ -114,6 +125,14 @@ a {
     height: 200px;
     object-fit: cover;
     transition-duration: .4s;
+}
+
+.card-gif {
+    height: 200px;
+    object-fit: cover;
+    /* opacity: 0%; */
+    display: none;
+    /* transition-duration: .4s; */
 }
 
 
