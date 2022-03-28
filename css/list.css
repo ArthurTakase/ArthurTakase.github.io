@@ -13,16 +13,19 @@ a {
     overflow-x: scroll;
     justify-items: center;
     align-items: center;
+    scroll-behavior: smooth;
 }
 
 .card-list::-webkit-scrollbar {
     width: 10px;
     height: 10px;
+    display: none;
 }
 
 .card-list::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    background-color: #FE938C;
+    background-color: #c3fff2;
+    display: none;
 }
 
 .card:hover {
@@ -115,4 +118,38 @@ a {
     object-fit: cover;
     /* width: auto; */
     transition-duration: .4s;
+}
+
+
+/* ARROWS */
+
+.arrow {
+    z-index: 150;
+    font-size: 0.8rem;
+    position: absolute;
+    /* background: #ff85855e; */
+    /* border: solid #ff8585; */
+    color: #ff8585;
+    backdrop-filter: blur(10px);
+    height: 20px;
+    width: 20px;
+    border-radius: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+    margin-top: 35px;
+}
+
+.arrow:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.right-arrow {
+    right: 25px;
+}
+
+.left-arrow {
+    right: 60px;
 }

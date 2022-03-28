@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/card-horizontal.css" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="js/hideProject.js"></script>
+    <script type="text/javascript" src="js/scroll.js"></script>
     <script src="https://kit.fontawesome.com/f394981801.js" crossorigin="anonymous"></script>
     <title>ArthurTakase</title>
 </head>
@@ -94,10 +94,12 @@
 
     <section id="project-pro">
         <div class="main">
+            <div class="right-arrow arrow" onclick="scrollRightByVisible('Pro', 0)"><i class="fa-solid fa-angle-right"></i></div>
+            <div class="left-arrow arrow" onclick="scrollLeftByVisible('Pro')"><i class="fa-solid fa-angle-left"></i></div>
             <h1 class="subtitle">Professional projects</h1>
         </div>
 
-        <div class="main card-list">
+        <div class="main card-list" id="Pro">
 
             <article id="CARTTET" class="card">
                 <img class="card-img" src="https://zupimages.net/up/21/32/vzvv.png" alt="">
@@ -151,90 +153,92 @@
 
     <section id="project-perso">
         <div class="main">
-            <h1 class="subtitle">Personal projects</h1>
+            <div class="right-arrow arrow" onclick="scrollRightByVisible('Perso', 0)"><i class="fa-solid fa-angle-right"></i></div>
+            <div class="left-arrow arrow" onclick="scrollLeftByVisible('Perso')"><i class=" fa-solid fa-angle-left "></i></div>
+            <h1 class="subtitle ">Personal projects</h1>
         </div>
 
-        <div class="main card-list">
+        <div class="main card-list " id="Perso">
 
-            <article id="HerosJS" class="card">
-                <img class="card-img" src="https://zupimages.net/up/21/39/rrpg.jpg" alt="">
-                <div class="card-infos">
-                    <p class="card-header">Heros.js</p>
-                    <p class="card-desc">JS game engine for Visual Novel games.</p>
+            <article id="HerosJS " class="card ">
+                <img class="card-img " src="https://zupimages.net/up/21/39/rrpg.jpg " alt=" ">
+                <div class="card-infos ">
+                    <p class="card-header ">Heros.js</p>
+                    <p class="card-desc ">JS game engine for Visual Novel games.</p>
                 </div>
-                <div class="card-tag">
-                    <a title="JS"><i class="fab fa-js-square"></i></a>
-                    <a title="HTML"><i class="fab fa-html5"></i></a>
-                    <a title="CSS"><i class="fab fa-css3-alt"></i></a>
+                <div class="card-tag ">
+                    <a title="JS "><i class="fab fa-js-square "></i></a>
+                    <a title="HTML "><i class="fab fa-html5 "></i></a>
+                    <a title="CSS "><i class="fab fa-css3-alt "></i></a>
                 </div>
-                <div class="card-link">
-                    <a href="https://github.com/ArthurTakase/Heros.js" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a>
-                    <a href="https://arthurtakase.github.io/Heros.js/" target="_blank" title="Play"><i class="fa-solid fa-play"></i></a>
+                <div class="card-link ">
+                    <a href="https://github.com/ArthurTakase/Heros.js " target="_blank " title="Github "><i class="fab fa-github-alt "></i></a>
+                    <a href="https://arthurtakase.github.io/Heros.js/ " target="_blank " title="Play "><i class="fa-solid fa-play "></i></a>
                 </div>
             </article>
 
-            <article id="OhMyCSS" class="card">
-                <img class="card-img" src="img/projects/movie.png" alt="">
-                <div class="card-infos">
-                    <p class="card-header">OhMyCSS</p>
-                    <p class="card-desc">Lots of small projects mainly oriented around CSS.</p>
+            <article id="OhMyCSS " class="card ">
+                <img class="card-img " src="img/projects/movie.png " alt=" ">
+                <div class="card-infos ">
+                    <p class="card-header ">OhMyCSS</p>
+                    <p class="card-desc ">Lots of small projects mainly oriented around CSS.</p>
                 </div>
-                <div class="card-tag">
-                    <a title="HTML"><i class="fab fa-html5"></i></a>
-                    <a title="CSS"><i class="fab fa-css3-alt"></i></a>
+                <div class="card-tag ">
+                    <a title="HTML "><i class="fab fa-html5 "></i></a>
+                    <a title="CSS "><i class="fab fa-css3-alt "></i></a>
                 </div>
-                <div class="card-link">
-                    <a href="https://github.com/ArthurTakase/OhMyCSS" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a>
-                    <a href="https://arthurtakase.github.io/OhMyCSS/" target="_blank" title="Play"><i class="fa-solid fa-play"></i></a>
+                <div class="card-link ">
+                    <a href="https://github.com/ArthurTakase/OhMyCSS " target="_blank " title="Github "><i class="fab fa-github-alt "></i></a>
+                    <a href="https://arthurtakase.github.io/OhMyCSS/ " target="_blank " title="Play "><i class="fa-solid fa-play "></i></a>
                 </div>
             </article>
 
-            <article id="Epitech" class="card">
-                <img class="card-img" src="https://zupimages.net/up/21/32/x8qi.jpg" alt="">
-                <div class="card-infos">
-                    <p class="card-header">Epitech Tek1</p>
-                    <p class="card-desc">All first year projects at Epitech.</p>
+            <article id="Epitech " class="card ">
+                <img class="card-img " src="https://zupimages.net/up/21/32/x8qi.jpg " alt=" ">
+                <div class="card-infos ">
+                    <p class="card-header ">Epitech Tek1</p>
+                    <p class="card-desc ">All first year projects at Epitech.</p>
                 </div>
-                <div class="card-tag">
+                <div class="card-tag ">
                     <a>C</a>
-                    <a title="Python"><i class="fab fa-python"></i></a>
-                    <a title="Shell"><i class="fa-solid fa-terminal"></i></a>
-                    <a title="JS"><i class="fab fa-js-square"></i></a>
+                    <a title="Python "><i class="fab fa-python "></i></a>
+                    <a title="Shell "><i class="fa-solid fa-terminal "></i></a>
+                    <a title="JS "><i class="fab fa-js-square "></i></a>
                 </div>
-                <div class="card-link">
-                    <a href="https://github.com/ArthurTakase/Epitech-Tek1-2020" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a>
-                </div>
-            </article>
-
-            <article id="LittleGamesBundle" class="card">
-                <img class="card-img" src="https://zupimages.net/up/21/39/hipn.png" alt="">
-                <div class="card-infos">
-                    <p class="card-header">LittleGamesBundle</p>
-                    <p class="card-desc">Compilation of the different games I've developed so far.</p>
-                </div>
-                <div class="card-tag">
-                    <a title="Python"><i class="fab fa-python"></i></a>
-                    <a title="JS"><i class="fab fa-js-square"></i></a>
-                    <a title="Construct 2">C2</a>
-                    <a title="Unity"><i class="fa-brands fa-unity"></i></a>
-                </div>
-                <div class="card-link">
-                    <a href="https://github.com/ArthurTakase/LittleGamesBundle" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a>
-                    <a href="https://arthurtakase.github.io/LittleGamesBundle" target="_blank" title="Play"><i class="fa-solid fa-play"></i></a>
+                <div class="card-link ">
+                    <a href="https://github.com/ArthurTakase/Epitech-Tek1-2020 " target="_blank " title="Github "><i class="fab fa-github-alt "></i></a>
                 </div>
             </article>
 
-            <article id="ArchivedPrograms" class="card">
-                <img class="card-img" src="https://zupimages.net/up/21/39/l6eo.jpg" alt="">
-                <div class="card-infos">
-                    <p class="card-header">ArchivedPrograms</p>
-                    <p class="card-desc">Compilations of old programs</p>
+            <article id="LittleGamesBundle " class="card ">
+                <img class="card-img " src="https://zupimages.net/up/21/39/hipn.png " alt=" ">
+                <div class="card-infos ">
+                    <p class="card-header ">LittleGamesBundle</p>
+                    <p class="card-desc ">Compilation of the different games I've developed so far.</p>
                 </div>
-                <div class="card-tag">
-                    <a title="Python"><i class="fab fa-python"></i></a>
+                <div class="card-tag ">
+                    <a title="Python "><i class="fab fa-python "></i></a>
+                    <a title="JS "><i class="fab fa-js-square "></i></a>
+                    <a title="Construct 2 ">C2</a>
+                    <a title="Unity "><i class="fa-brands fa-unity "></i></a>
                 </div>
-                <div class="card-link">
-                    <a href="https://github.com/ArthurTakase/ArchivedPrograms" target="_blank" title="Github"><i class="fab fa-github-alt"></i></a>
+                <div class="card-link ">
+                    <a href="https://github.com/ArthurTakase/LittleGamesBundle " target="_blank " title="Github "><i class="fab fa-github-alt "></i></a>
+                    <a href="https://arthurtakase.github.io/LittleGamesBundle " target="_blank " title="Play "><i class="fa-solid fa-play "></i></a>
+                </div>
+            </article>
+
+            <article id="ArchivedPrograms " class="card ">
+                <img class="card-img " src="https://zupimages.net/up/21/39/l6eo.jpg " alt=" ">
+                <div class="card-infos ">
+                    <p class="card-header ">ArchivedPrograms</p>
+                    <p class="card-desc ">Compilations of old programs</p>
+                </div>
+                <div class="card-tag ">
+                    <a title="Python "><i class="fab fa-python "></i></a>
+                </div>
+                <div class="card-link ">
+                    <a href="https://github.com/ArthurTakase/ArchivedPrograms " target="_blank " title="Github "><i class="fab fa-github-alt "></i></a>
                 </div>
             </article>
 
@@ -243,7 +247,7 @@
 
 </body>
 <footer>
-    <div class="footer">
+    <div class="footer ">
         <p>Copyright © Arthur Decaen 2021</p>
     </div>
 </footer>
