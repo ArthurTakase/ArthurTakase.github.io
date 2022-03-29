@@ -121,8 +121,10 @@ a {
     margin-left: 5px;
 }
 
+.card-img-with-video,
 .card-img {
     height: 200px;
+    object-position: top;
     object-fit: cover;
     transition-duration: .4s;
 }
@@ -130,9 +132,7 @@ a {
 .card-gif {
     height: 200px;
     object-fit: cover;
-    /* opacity: 0%; */
     display: none;
-    /* transition-duration: .4s; */
 }
 
 
