@@ -48,9 +48,15 @@ a {
     margin: 5px;
     scroll-snap-align: start;
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #2f3136;
     /* align-items: center; */
+}
+
+.card-img-with-video,
+.card-gif,
+.card-img {
+    border-radius: 10px;
 }
 
 .card:hover .card-img-with-video {
