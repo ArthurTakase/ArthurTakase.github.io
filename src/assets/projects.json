@@ -16,7 +16,7 @@
             }
         ],
         "link": [],
-        "gif": "Carttet.gif",
+        "gif": "https://media.tenor.com/0vCy1vzvWgQAAAAC/holiday-vacation.gif",
         "img": "https://zupimages.net/up/21/32/vzvv.png"
     },
     {
@@ -40,7 +40,7 @@
             }
         ],
         "link": [],
-        "gif": "Aegir.gif",
+        "gif": "https://media2.giphy.com/media/DHqth0hVQoIzS/giphy.gif",
         "img": "https://zupimages.net/up/21/39/xdhp.jpg"
     },
     {
@@ -130,6 +130,7 @@
                 "logo": "fa-solid fa-play"
             }
         ],
+        "gif": "https://media-exp1.licdn.com/dms/image/C5612AQFy9TrPYcbpGA/article-cover_image-shrink_600_2000/0/1595852886984?e=2147483647&v=beta&t=yhfsOFUi0m8jEyIXb1E5dxyGALN02oVwHG4QtB0nTL8",
         "img": "https://zupimages.net/up/22/14/5i37.png"
     },
     {
@@ -163,7 +164,7 @@
         "description": "All projects at Epitech (tek1 & 2).",
         "tech": [{
                 "name": "C",
-                "logo": "C"
+                "logo": "fa-solid fa-c"
             },
             {
                 "name": "Python",
@@ -183,22 +184,23 @@
             },
             {
                 "name": "Haskell",
-                "logo": "λ"
+                "logo": "fa-solid fa-lambda"
             }
         ],
         "link": [{
             "url": "https://github.com/ArthurTakase/Epitech-Bundle",
             "logo": "fab fa-github-alt"
         }],
+        "gif": "https://media.giphy.com/media/GD2e9EJ0uDrzO/giphy.gif",
         "img": "https://zupimages.net/up/22/14/f6ax.jpg"
     },
     {
-        "type": ["game"],
+        "type": ["perso"],
         "title": "LittleGamesBundle",
         "description": "Compilation of the different games I've developed so far.",
         "tech": [{
                 "name": "Construct 2",
-                "logo": "C2"
+                "logo": "fa-solid fa-gear"
             },
             {
                 "name": "Python",
@@ -222,6 +224,7 @@
                 "logo": "fa-solid fa-play"
             }
         ],
+        "gif": "https://i.imgur.com/2tcU5w8.gif",
         "img": "https://zupimages.net/up/21/39/hipn.png"
     },
     {
@@ -236,6 +239,214 @@
             "url": "https://github.com/ArthurTakase/ArchivedPrograms",
             "logo": "fab fa-github-alt"
         }],
+        "gif": "https://media4.giphy.com/media/896NyHxKgOwc8UoIar/giphy.gif",
         "img": "https://zupimages.net/up/22/14/rtc1.jpg"
+    },
+    {
+        "type": ["perso"],
+        "title": "Advent of Code",
+        "description": "Programming advent calendar. I never get to the end but it's fun anyway !",
+        "tech": [{
+                "name": "JS",
+                "logo": "fab fa-js-square"
+            },
+            {
+                "name": "Python",
+                "logo": "fab fa-python"
+            }
+        ],
+        "link": [],
+        "gif": "https://media3.giphy.com/media/l3vQXnSDsC2V4eScg/giphy.gif",
+        "img": "https://blogs.sap.com/wp-content/uploads/2020/11/EkaoQQTXEAMA4BN.jpg"
+    },
+    {
+        "type": ["game"],
+        "title": "Carotte",
+        "description": "'Brazil'. Don't let your plantations catch fire! Water them as much as possible to keep as much as possible at the end of the timer. Game made during a 3h mini-jam",
+        "tech": [{
+            "name": "Construct 2",
+            "logo": "fa-solid fa-gear"
+        }],
+        "link": [{
+                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Carottes",
+                "logo": "fab fa-github-alt"
+            },
+            {
+                "url": "https://arthurtakase.github.io/LittleGamesBundle/Carottes/index.html",
+                "logo": "fa-solid fa-play"
+            }
+        ],
+        "gif": "https://64.media.tumblr.com/7bc3d35afc037695fa04e6d43b9f263d/8202699ac73edc7a-92/s540x810/97bca546fed21a61f2de0a0644fe8254cdca82e3.gif",
+        "img": "carottes.png"
+    },
+    {
+        "type": ["game"],
+        "title": "Elle",
+        "description": "'Past, Present and Future.' Follow the story of a young man through different periods of his life. Game realized for the 1st Epitech Jam",
+        "tech": [{
+            "name": "Construct 2",
+            "logo": "fa-solid fa-gear"
+        }],
+        "link": [{
+                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Elle",
+                "logo": "fab fa-github-alt"
+            },
+            {
+                "url": "https://arthurtakase.github.io/LittleGamesBundle/Elle/index.html",
+                "logo": "fa-solid fa-play"
+            }
+        ],
+        "gif": "https://gifdb.com/images/thumbnail/500-days-of-summer-movie-aesthetic-ending-4kcsjbi6k9kouuaj.gif",
+        "img": "elle.png"
+    },
+    {
+        "type": ["perso"],
+        "title": "Family Jam",
+        "description": "Epitech Jam #6 'Family'",
+        "tech": [{
+            "name": "JS",
+            "logo": "fab fa-js-square"
+        }],
+        "link": [{
+                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/FamilyJam",
+                "logo": "fab fa-github-alt"
+            },
+            {
+                "url": "https://arthurtakase.github.io/LittleGamesBundle/FamilyJam/index.html",
+                "logo": "fa-solid fa-play"
+            }
+        ],
+        "gif": "https://media.tenor.com/CZiVPwCvGoYAAAAC/vin-diesel-fast-and-furious.gif",
+        "img": "https://i.ytimg.com/vi/O3Tij2seTjI/maxresdefault.jpg"
+    },
+    {
+        "type": ["game"],
+        "title": "Feed The Panda",
+        "description": "Feed a beautiful little panda with the burgers he asks for ! Produced for the Ludum Dare 46",
+        "tech": [{
+            "name": "Python",
+            "logo": "fab fa-python"
+        }],
+        "link": [{
+            "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Feed-The-Panda",
+            "logo": "fab fa-github-alt"
+        }],
+        "gif": "https://i.pinimg.com/originals/77/2e/c4/772ec4634d75bb5e61e18a03146458fe.gif",
+        "img": "https://static.jam.host/content/951/d2/z/2d977.png.480x384.fit.jpg"
+    },
+    {
+        "type": ["game"],
+        "title": "Klepto",
+        "description": "'Lost and Found'. Thief! Steal as many objects as possible before the police arrive and catch you. Game made for the GGJ 2021.",
+        "tech": [{
+            "name": "Construct 2",
+            "logo": "fa-solid fa-gear"
+        }],
+        "link": [{
+                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Elle",
+                "logo": "fab fa-github-alt"
+            },
+            {
+                "url": "https://arthurtakase.github.io/LittleGamesBundle/Klepto/index.html",
+                "logo": "fa-solid fa-play"
+            }
+        ],
+        "gif": "https://www.slate.fr/sites/default/files/2016-12-21-201230.gif",
+        "img": "klepto.png"
+    },
+    {
+        "type": ["game"],
+        "title": "LabyRunner",
+        "description": "Arcade game where you go through labyrinths to make the best score possible.",
+        "tech": [{
+            "name": "Python",
+            "logo": "fab fa-python"
+        }],
+        "link": [{
+            "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/LabyRunner",
+            "logo": "fab fa-github-alt"
+        }],
+        "gif": "https://media.tenor.com/tLenDyYgNQYAAAAC/dylan-o-brien-maze-runner3de.gif",
+        "img": "https://www.labyrintheduthimerais.fr/wp-content/uploads/n0uW9B/2022/03/labyrinthes-vegetaux-de-france-et-dailleurs-004.jpg"
+    },
+    {
+        "type": ["game"],
+        "title": "Random Story",
+        "description": "JS adaptation of the game 'Comment j'ai adopté un gnou' where you have to create a story from different elements",
+        "tech": [{
+            "name": "JS",
+            "logo": "fab fa-js-square"
+        }],
+        "link": [{
+                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Random-Story",
+                "logo": "fab fa-github-alt"
+            },
+            {
+                "url": "https://arthurtakase.github.io/LittleGamesBundle/Random-Story/index.html",
+                "logo": "fa-solid fa-play"
+            }
+        ],
+        "gif": "https://i.skyrock.net/5382/81895382/pics/3330907754_1_6_HgWx9jf6.gif",
+        "img": "randomstory.png"
+    },
+    {
+        "type": ["game"],
+        "title": "Twins",
+        "description": "Make your way through a dark forest with the help of a strange ally. Game made for the 2nd Epitech Jam.",
+        "tech": [{
+            "name": "Unity",
+            "logo": "fa-brands fa-unity"
+        }],
+        "link": [{
+            "url": "https://arthurtakase.github.io/LittleGamesBundle/Twins/index.html",
+            "logo": "fa-solid fa-play"
+        }],
+        "gif": "https://media.tenor.com/2mcR5I9vrWAAAAAC/twins-twinsies.gif",
+        "img": "twins.png"
+    },
+    {
+        "type": ["game"],
+        "title": "Patrick",
+        "description": "Epitech Jam #3 'Anonymity'",
+        "tech": [{
+            "name": "Unity",
+            "logo": "fa-brands fa-unity"
+        }],
+        "link": [{
+            "url": "https://takase.itch.io/where-is-patrick",
+            "logo": "fa-solid fa-play"
+        }],
+        "gif": "https://media.tenor.com/2mcR5I9vrWAAAAAC/twins-twinsies.gif",
+        "img": "patrick.png"
+    },
+    {
+        "type": ["game"],
+        "title": "Escape from Michelov",
+        "description": "Epitech Jam #4 'Succesful'",
+        "tech": [{
+            "name": "Unity",
+            "logo": "fa-brands fa-unity"
+        }],
+        "link": [{
+            "url": "https://takase.itch.io/escape-from-michelov",
+            "logo": "fa-solid fa-play"
+        }],
+        "gif": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/f7c01b21342117.562ff92c13ddd.gif",
+        "img": "https://img.itch.zone/aW1nLzgxNjQ3NjcuanBn/315x250%23c/oXPYhg.jpg"
+    },
+    {
+        "type": ["perso"],
+        "title": "PeipLn",
+        "description": "PeipLn is a question prompter and score manager. With it, you don't need to bother with your quiz nights anymore, just put everything in a JSON and go! ",
+        "tech": [{
+            "name": "JS",
+            "logo": "fab fa-js-square"
+        }],
+        "link": [{
+            "url": "https://arthurtakase.github.io/Peipln/",
+            "logo": "fa-solid fa-play"
+        }],
+        "gif": "https://i.pinimg.com/originals/fd/c9/90/fdc9902f493e1ecbe0e4c318f8296afc.jpg",
+        "img": "https://www.toutelatele.com/IMG/logo/arton104754.jpg?1541429690"
     }
 ]
