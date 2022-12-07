@@ -1,0 +1,28 @@
+{
+    "homepage": "http://arthurtakase.github.io/",
+    "name": "arthurtakase",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.4.4",
+        "sass-convert": "^0.5.2"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
+        "@vitejs/plugin-react": "^2.2.0",
+        "gh-pages": "^4.0.0",
+        "sass": "^1.56.1",
+        "vite": "^3.2.3"
+    }
+}

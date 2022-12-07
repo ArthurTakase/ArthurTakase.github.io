@@ -1,0 +1,106 @@
+@import 'colors.scss';
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.card {
+    min-width: 350px;
+    width: 400px;
+    height: 250px;
+    border-radius: 1rem;
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.295);
+    display: flex;
+    flex: 1 1;
+    flex-direction: column;
+    transition: .2s;
+    scroll-snap-align: start;
+    background: #2f3136;
+    color: $accent_text;
+    animation: newCard 0.3s;
+    position: relative;
+    @media only screen and (max-width: 600px) {
+        min-width: 300px;
+        height: 200px;
+    }
+    &:hover,
+    &:focus,
+    &:active {
+        cursor: pointer;
+        box-shadow: inset $accent_color 0rem 0rem 0rem .2rem, 0rem 0rem 2rem .8rem rgba(0, 0, 0, 0.466);
+        .card-img {
+            opacity: 20%;
+        }
+        .card-infos,
+        .card-tag,
+        .card-link {
+            opacity: 100%;
+        }
+    }
+}
+
+@keyframes newCard {
+    0% {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+.card-img {
+    border-radius: 1rem;
+    height: 100%;
+    object-fit: cover;
+    transition-duration: .4s;
+}
+
+.card-infos,
+.card-tag,
+.card-link {
+    opacity: 0%;
+    transition-duration: .4s;
+    padding: 1rem;
+    display: flex;
+    gap: .5rem;
+    position: absolute;
+    font-size: 1.3rem;
+}
+
+.card-infos {
+    flex-direction: column;
+    bottom: 0;
+    gap: 0;
+}
+
+.card-header {
+    font-weight: bold;
+    color: $accent_color;
+    margin-bottom: -10px;
+    font-size: 1.5rem;
+    transition-duration: 0.3s;
+}
+
+.card-desc {
+    font-size: .8rem;
+    margin-bottom: 0;
+}
+
+.card-infos {
+    width: calc(100% - 1.6rem);
+    padding: 1rem;
+}
+
+.card-tag {
+    top: 0;
+    left: 0;
+    color: $accent_color;
+}
+
+.card-link {
+    top: 0;
+    right: 0;
+    color: $accent_color_2;
+}

@@ -1,0 +1,84 @@
+@import "colors.scss";
+.back {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    filter: blur(2px);
+    opacity: 0.5;
+    animation: fadeIn .5s;
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 0.5;
+        }
+    }
+}
+
+.herojs {
+    h1 {
+        color: $accent_color;
+        padding: 0;
+        margin: 0;
+        margin-bottom: .8rem;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+        color: $accent_text;
+        text-align: justify;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    a {
+        color: $accent_text;
+        text-decoration: none;
+        background: $accent_color;
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        position: absolute;
+        bottom: 0;
+        border-radius: 1rem 1rem 0 0;
+        transition-duration: .2s;
+        &:hover {
+            scale: 1.05 1;
+        }
+    }
+    .infos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        bottom: 4rem;
+        margin: 1rem;
+        padding: 1rem;
+        padding-bottom: 4rem;
+        background: $nav_back;
+        backdrop-filter: blur(20px);
+        border-radius: 1rem;
+        max-width: 50rem;
+        border: solid $accent_color .2rem;
+        box-shadow: 0rem 0rem 2rem .8rem rgba(0, 0, 0, 0.466);
+    }
+    img {
+        position: absolute;
+        bottom: 0;
+        height: 100vh;
+        animation: float 2s ease-in-out infinite;
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-.5rem);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    }
+}
