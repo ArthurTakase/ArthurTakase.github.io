@@ -255,7 +255,10 @@
                 "logo": "fab fa-python"
             }
         ],
-        "link": [],
+        "link": [{
+            "url": "https://github.com/ArthurTakase/AdventOfCode",
+            "logo": "fab fa-github-alt"
+        }],
         "gif": "https://media3.giphy.com/media/l3vQXnSDsC2V4eScg/giphy.gif",
         "img": "https://blogs.sap.com/wp-content/uploads/2020/11/EkaoQQTXEAMA4BN.jpg"
     },
