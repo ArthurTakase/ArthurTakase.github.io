@@ -69,6 +69,21 @@
     },
     {
         "type": ["game"],
+        "title": "UFO County",
+        "description": "Explore an island with your spaceship to bring back a lot of stuff to your planet. ~Ludum Dare 52~",
+        "tech": [{
+            "name": "Unity",
+            "logo": "fa-brands fa-unity"
+        }],
+        "link": [{
+            "url": "https://takase.itch.io/ufo-county",
+            "logo": "fa-solid fa-play"
+        }],
+        "gif": "ufo.gif",
+        "img": "ufo.png "
+    },
+    {
+        "type": ["game"],
         "title": "Blue.",
         "description": "VR Cardboard game about the color blue.",
         "tech": [{
