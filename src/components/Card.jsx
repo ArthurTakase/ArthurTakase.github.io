@@ -18,8 +18,9 @@ export default function Card({ project }) {
     }
 
     return (
-        <article className="card"
+        <article className="card" tabIndex={0}
             onMouseEnter={() => changeBackground(project.gif ? getPicture(project.gif) : getPicture(project.img))}
+            onFocus={() => changeBackground(project.gif ? getPicture(project.gif) : getPicture(project.img))}
             onMouseLeave={() => document.getElementsByClassName("main")[0].style.background = "rgb(0, 0, 0)"}>
             <img className="card-img" src={getPicture(project.img)} />
             <div className="card-infos">

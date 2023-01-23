@@ -21,10 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    &.cardList {
-        gap: 1rem;
-        padding: 1rem;
-    }
 }
 
 .main {
@@ -45,5 +41,75 @@ body {
         padding: 1rem;
         padding-left: 1rem;
         padding-top: 6rem;
+    }
+    &.list {
+        padding-top: 3.5rem;
+        flex-direction: column;
+        position: relative;
+        overflow: hidden;
+        min-height: calc(100vh - 4.5rem);
+        @media only screen and (max-width: 600px) {
+            min-height: calc(100vh - 7.5rem);
+            padding-top: 6.5rem;
+        }
+        .timeline {
+            position: absolute;
+            width: .5rem;
+            height: 50vh;
+            background: $accent_color;
+            left: 6.25rem;
+            bottom: 0;
+            @media only screen and (max-width: 600px) {
+                left: 1rem;
+            }
+        }
+        .yearList {
+            display: flex;
+            justify-content: center;
+            width: calc(100% - 4rem);
+            flex-direction: column;
+            padding-top: 1rem;
+            padding-right: 3.5rem;
+            position: relative;
+            @media only screen and (max-width: 600px) {
+                padding-right: 2rem;
+                width: calc(100% - 2rem);
+            }
+            .year {
+                position: absolute;
+                z-index: 10;
+                top: -.5rem;
+                left: -.6rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: row;
+                gap: .5rem;
+                .dot {
+                    width: 1rem;
+                    height: 1rem;
+                    border-radius: 50%;
+                    border: solid $accent_color .4rem;
+                    background: $nav_back;
+                    backdrop-filter: blur(10px);
+                }
+                .title {
+                    color: $accent_color;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+            }
+            .projects {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 100%;
+                gap: 1rem;
+                border-left: solid $accent_color .5rem;
+                padding-left: 1rem;
+                padding-top: 1.5rem;
+                padding-bottom: 1.5rem;
+            }
+        }
     }
 }

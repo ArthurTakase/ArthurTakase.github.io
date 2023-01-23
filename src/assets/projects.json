@@ -1,26 +1,5 @@
 [{
         "type": ["pro"],
-        "title": "Carttet",
-        "description": "Job application allowing agents to transmit their unused vacation days to human resources.",
-        "tech": [{
-                "name": "HTML5",
-                "logo": "fab fa-html5"
-            },
-            {
-                "name": "CSS3",
-                "logo": "fab fa-css3-alt"
-            },
-            {
-                "name": "Groovy",
-                "logo": "fa-brands fa-java"
-            }
-        ],
-        "link": [],
-        "gif": "https://media.tenor.com/0vCy1vzvWgQAAAAC/holiday-vacation.gif",
-        "img": "https://zupimages.net/up/21/32/vzvv.png"
-    },
-    {
-        "type": ["pro"],
         "title": "Ægir & Rán",
         "description": "Plugin and WebService to track and graph the usage practices of the Departmental Council applications. The goal is to see if the added options are used enough.",
         "tech": [{
@@ -41,7 +20,58 @@
         ],
         "link": [],
         "gif": "https://media2.giphy.com/media/DHqth0hVQoIzS/giphy.gif",
-        "img": "https://zupimages.net/up/21/39/xdhp.jpg"
+        "img": "https://zupimages.net/up/21/39/xdhp.jpg",
+        "create_at": "2021/09/01",
+        "update_at": "2022/12/01"
+    },
+    {
+        "type": ["pro"],
+        "title": "Aeria",
+        "description": "Business application used for the distribution of replacement agents and the management of their diaries by the municipalities.",
+        "tech": [{
+                "name": "HTML5",
+                "logo": "fab fa-html5"
+            },
+            {
+                "name": "CSS3",
+                "logo": "fab fa-css3-alt"
+            },
+            {
+                "name": "Groovy",
+                "logo": "fa-brands fa-java"
+            }, {
+                "name": "JS",
+                "logo": "fab fa-js-square"
+            }
+        ],
+        "link": [],
+        "gif": "https://media.tenor.com/qCuf8PpZ-78AAAAC/substituir-kakashi-hatake.gif",
+        "img": "https://www.radiofrance.fr/s3/cruiser-production/2013/12/17a99e9e-6816-11e3-998b-782bcb7402be/870x489_img-0472.jpg",
+        "create_at": "2022/09/27",
+        "update_at": "2023/03/30"
+    },
+    {
+        "type": ["pro"],
+        "title": "Carttet",
+        "description": "Job application allowing agents to transmit their unused vacation days to human resources.",
+        "tech": [{
+                "name": "HTML5",
+                "logo": "fab fa-html5"
+            },
+            {
+                "name": "CSS3",
+                "logo": "fab fa-css3-alt"
+            },
+            {
+                "name": "Groovy",
+                "logo": "fa-brands fa-java"
+            }
+        ],
+        "link": [],
+        "gif": "https://media.tenor.com/0vCy1vzvWgQAAAAC/holiday-vacation.gif",
+        "img": "https://zupimages.net/up/21/32/vzvv.png",
+        "create_at": "2021/07/01",
+        "update_at": "2021/12/01"
     },
     {
         "type": ["pro"],
@@ -65,7 +95,9 @@
         ],
         "link": [],
         "gif": "dsinplan.gif",
-        "img": "https://zupimages.net/up/21/42/7wxm.png"
+        "img": "https://zupimages.net/up/21/42/7wxm.png",
+        "create_at": "2021/10/01",
+        "update_at": "2021/12/01"
     },
     {
         "type": ["game"],
@@ -80,7 +112,9 @@
             "logo": "fa-solid fa-play"
         }],
         "gif": "ufo.gif",
-        "img": "ufo.png "
+        "img": "ufo.png ",
+        "create_at": "2023/01/06",
+        "update_at": "2023/01/09"
     },
     {
         "type": ["game"],
@@ -95,7 +129,9 @@
             "logo": "fa-solid fa-download"
         }],
         "gif": "blue.gif",
-        "img": "blue.png "
+        "img": "blue.png ",
+        "create_at": "2022/03/01",
+        "update_at": "2022/03/01"
     },
     {
         "type": ["perso"],
@@ -123,55 +159,9 @@
             }
         ],
         "gif": "herosjs.gif",
-        "img": "https://zupimages.net/up/21/39/rrpg.jpg"
-    },
-    {
-        "type": ["perso"],
-        "title": "Coding Club",
-        "description": "Littles projects to teach young people how to code.",
-        "tech": [{
-            "name": "Python",
-            "logo": "fab fa-python"
-        }, {
-            "name": "JS",
-            "logo": "fab fa-js-square"
-        }],
-        "link": [{
-                "url": "https://github.com/ArthurTakase/CodingClub",
-                "logo": "fab fa-github-alt"
-            },
-            {
-                "url": "https://arthurtakase.github.io/CodingClub/",
-                "logo": "fa-solid fa-play"
-            }
-        ],
-        "gif": "https://media-exp1.licdn.com/dms/image/C5612AQFy9TrPYcbpGA/article-cover_image-shrink_600_2000/0/1595852886984?e=2147483647&v=beta&t=yhfsOFUi0m8jEyIXb1E5dxyGALN02oVwHG4QtB0nTL8",
-        "img": "https://zupimages.net/up/22/14/5i37.png"
-    },
-    {
-        "type": ["perso"],
-        "title": "OhMyCSS",
-        "description": "Lots of small projects mainly oriented around CSS.",
-        "tech": [{
-                "name": "HTML5",
-                "logo": "fab fa-html5"
-            },
-            {
-                "name": "CSS3",
-                "logo": "fab fa-css3-alt"
-            }
-        ],
-        "link": [{
-                "url": "https://github.com/ArthurTakase/OhMyCSS",
-                "logo": "fab fa-github-alt"
-            },
-            {
-                "url": "https://arthurtakase.github.io/OhMyCSS/",
-                "logo": "fa-solid fa-play"
-            }
-        ],
-        "gif": "rubiks.gif",
-        "img": "movie.png"
+        "img": "https://zupimages.net/up/21/39/rrpg.jpg",
+        "create_at": "2021/10/03",
+        "update_at": "2022/10/14"
     },
     {
         "type": ["perso"],
@@ -207,7 +197,9 @@
             "logo": "fab fa-github-alt"
         }],
         "gif": "https://media.giphy.com/media/GD2e9EJ0uDrzO/giphy.gif",
-        "img": "https://zupimages.net/up/22/14/f6ax.jpg"
+        "img": "https://zupimages.net/up/22/14/f6ax.jpg",
+        "create_at": "2021/07/01",
+        "update_at": "2022/08/15"
     },
     {
         "type": ["perso"],
@@ -240,22 +232,9 @@
             }
         ],
         "gif": "https://i.imgur.com/2tcU5w8.gif",
-        "img": "https://zupimages.net/up/21/39/hipn.png"
-    },
-    {
-        "type": ["perso"],
-        "title": "ArchivedPrograms",
-        "description": "Compilations of old programs.",
-        "tech": [{
-            "name": "Python",
-            "logo": "fab fa-python"
-        }],
-        "link": [{
-            "url": "https://github.com/ArthurTakase/ArchivedPrograms",
-            "logo": "fab fa-github-alt"
-        }],
-        "gif": "https://media4.giphy.com/media/896NyHxKgOwc8UoIar/giphy.gif",
-        "img": "https://zupimages.net/up/22/14/rtc1.jpg"
+        "img": "https://zupimages.net/up/21/39/hipn.png",
+        "create_at": "2020/02/01",
+        "update_at": "2023/01/01"
     },
     {
         "type": ["perso"],
@@ -275,7 +254,9 @@
             "logo": "fab fa-github-alt"
         }],
         "gif": "https://media3.giphy.com/media/l3vQXnSDsC2V4eScg/giphy.gif",
-        "img": "https://blogs.sap.com/wp-content/uploads/2020/11/EkaoQQTXEAMA4BN.jpg"
+        "img": "https://blogs.sap.com/wp-content/uploads/2020/11/EkaoQQTXEAMA4BN.jpg",
+        "create_at": "2021/12/01",
+        "update_at": "2022/12/15"
     },
     {
         "type": ["game"],
@@ -295,7 +276,9 @@
             }
         ],
         "gif": "https://64.media.tumblr.com/7bc3d35afc037695fa04e6d43b9f263d/8202699ac73edc7a-92/s540x810/97bca546fed21a61f2de0a0644fe8254cdca82e3.gif",
-        "img": "carottes.png"
+        "img": "carottes.png",
+        "create_at": "2021/01/01",
+        "update_at": "2021/01/01"
     },
     {
         "type": ["game"],
@@ -315,7 +298,9 @@
             }
         ],
         "gif": "https://gifdb.com/images/thumbnail/500-days-of-summer-movie-aesthetic-ending-4kcsjbi6k9kouuaj.gif",
-        "img": "elle.png"
+        "img": "elle.png",
+        "create_at": "2021/02/01",
+        "update_at": "2021/02/01"
     },
     {
         "type": ["perso"],
@@ -335,7 +320,9 @@
             }
         ],
         "gif": "https://media.tenor.com/CZiVPwCvGoYAAAAC/vin-diesel-fast-and-furious.gif",
-        "img": "https://i.ytimg.com/vi/O3Tij2seTjI/maxresdefault.jpg"
+        "img": "https://i.ytimg.com/vi/O3Tij2seTjI/maxresdefault.jpg",
+        "create_at": "2022/05/01",
+        "update_at": "2022/05/01"
     },
     {
         "type": ["game"],
@@ -350,7 +337,9 @@
             "logo": "fab fa-github-alt"
         }],
         "gif": "https://i.pinimg.com/originals/77/2e/c4/772ec4634d75bb5e61e18a03146458fe.gif",
-        "img": "https://static.jam.host/content/951/d2/z/2d977.png.480x384.fit.jpg"
+        "img": "https://static.jam.host/content/951/d2/z/2d977.png.480x384.fit.jpg",
+        "create_at": "2020/04/01",
+        "update_at": "2020/04/01"
     },
     {
         "type": ["game"],
@@ -370,7 +359,9 @@
             }
         ],
         "gif": "https://www.slate.fr/sites/default/files/2016-12-21-201230.gif",
-        "img": "klepto.png"
+        "img": "klepto.png",
+        "create_at": "2021/01/25",
+        "update_at": "2021/01/25"
     },
     {
         "type": ["game"],
@@ -385,7 +376,9 @@
             "logo": "fab fa-github-alt"
         }],
         "gif": "https://media.tenor.com/tLenDyYgNQYAAAAC/dylan-o-brien-maze-runner3de.gif",
-        "img": "https://www.labyrintheduthimerais.fr/wp-content/uploads/n0uW9B/2022/03/labyrinthes-vegetaux-de-france-et-dailleurs-004.jpg"
+        "img": "https://www.labyrintheduthimerais.fr/wp-content/uploads/n0uW9B/2022/03/labyrinthes-vegetaux-de-france-et-dailleurs-004.jpg",
+        "create_at": "2020/02/01",
+        "update_at": "2020/02/01"
     },
     {
         "type": ["game"],
@@ -405,7 +398,9 @@
             }
         ],
         "gif": "https://i.skyrock.net/5382/81895382/pics/3330907754_1_6_HgWx9jf6.gif",
-        "img": "randomstory.png"
+        "img": "randomstory.png",
+        "create_at": "2020/10/01",
+        "update_at": "2020/10/01"
     },
     {
         "type": ["game"],
@@ -420,11 +415,13 @@
             "logo": "fa-solid fa-play"
         }],
         "gif": "https://media.tenor.com/2mcR5I9vrWAAAAAC/twins-twinsies.gif",
-        "img": "twins.png"
+        "img": "twins.png",
+        "create_at": "2021/03/01",
+        "update_at": "2021/03/01"
     },
     {
         "type": ["game"],
-        "title": "Patrick",
+        "title": "Where is Patrick ?",
         "description": "Epitech Jam #3 'Anonymity'",
         "tech": [{
             "name": "Unity",
@@ -435,7 +432,9 @@
             "logo": "fa-solid fa-play"
         }],
         "gif": "https://media.tenor.com/9ppNC0UBHbUAAAAd/charlie-day-its-always-sunny-in-philadelphia.gif",
-        "img": "patrick.png"
+        "img": "patrick.png",
+        "create_at": "2021/05/01",
+        "update_at": "2021/05/01"
     },
     {
         "type": ["game"],
@@ -450,7 +449,9 @@
             "logo": "fa-solid fa-play"
         }],
         "gif": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/f7c01b21342117.562ff92c13ddd.gif",
-        "img": "https://img.itch.zone/aW1nLzgxNjQ3NjcuanBn/315x250%23c/oXPYhg.jpg"
+        "img": "https://img.itch.zone/aW1nLzgxNjQ3NjcuanBn/315x250%23c/oXPYhg.jpg",
+        "create_at": "2022/02/01",
+        "update_at": "2022/02/01"
     },
     {
         "type": ["perso"],
@@ -465,6 +466,25 @@
             "logo": "fa-solid fa-play"
         }],
         "gif": "https://i.pinimg.com/originals/fd/c9/90/fdc9902f493e1ecbe0e4c318f8296afc.jpg",
-        "img": "https://www.toutelatele.com/IMG/logo/arton104754.jpg?1541429690"
+        "img": "https://www.toutelatele.com/IMG/logo/arton104754.jpg?1541429690",
+        "create_at": "2022/08/15",
+        "update_at": "2022/10/19"
+    },
+    {
+        "type": ["perso"],
+        "title": "Trakt Wrapped",
+        "description": "Like Spotify Wrapped, but for Trakt.tv (in progress)",
+        "tech": [{
+            "name": "React",
+            "logo": "bx bxl-react"
+        }],
+        "link": [{
+            "url": "https://github.com/ArthurTakase/TraktWrapped",
+            "logo": "fab fa-github-alt"
+        }],
+        "gif": "https://gifdb.com/images/high/500-days-of-summer-romantic-date-1x36lohronellqdn.gif",
+        "img": "https://www.betaseries.com/blog/wp-content/uploads/2017/01/trakt-tv.bd49c3a6a68f421fb9eedfd14a78d87a.png",
+        "create_at": "2022/12/15",
+        "update_at": "2023/01/06"
     }
 ]
