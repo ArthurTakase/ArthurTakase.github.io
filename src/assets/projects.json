@@ -479,9 +479,14 @@
             "logo": "bx bxl-react"
         }],
         "link": [{
-            "url": "https://github.com/ArthurTakase/TraktWrapped",
-            "logo": "fab fa-github-alt"
-        }],
+                "url": "https://trakt-wrapped.vercel.app/",
+                "logo": "fa-solid fa-play"
+            },
+            {
+                "url": "https://github.com/ArthurTakase/TraktWrapped",
+                "logo": "fab fa-github-alt"
+            }
+        ],
         "gif": "https://gifdb.com/images/high/500-days-of-summer-romantic-date-1x36lohronellqdn.gif",
         "img": "https://www.betaseries.com/blog/wp-content/uploads/2017/01/trakt-tv.bd49c3a6a68f421fb9eedfd14a78d87a.png",
         "create_at": "2022/12/15",

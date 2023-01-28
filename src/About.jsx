@@ -18,8 +18,7 @@ export default function About() {
                 <h1>ARTHUR DECAEN</h1>
                 <p>
                     3rd year student at Epitech.<br />
-                    I code, I draw and in between, I watch Movies.<br />
-                    I'm currently looking for an internship in XR for my 3rd year.
+                    I code, I draw and in between, I watch Movies.
                 </p>
                 <div className='btn-zone'>
                     <a href={url["github"]} target="_blank"><i className="fa-brands fa-github about-icon"></i><p>Github</p></a>
