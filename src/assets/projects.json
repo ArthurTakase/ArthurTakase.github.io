@@ -497,7 +497,7 @@
     {
         "type": ["perso"],
         "title": "Trakt Wrapped",
-        "description": "Like Spotify Wrapped, but for Trakt.tv (in progress)",
+        "description": "Like Spotify Wrapped, but for Trakt.tv.",
         "tech": [
             {
                 "name": "SCSS",
