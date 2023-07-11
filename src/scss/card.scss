@@ -68,6 +68,18 @@ a {
     gap: .5rem;
     position: absolute;
     font-size: 1.3rem;
+    a {
+        display: flex;
+    }
+}
+
+.card-tag {
+    align-items: center;
+    small {
+        display: flex;
+        font-size: 1rem;
+        font-weight: bold;
+    }
 }
 
 .card-infos {

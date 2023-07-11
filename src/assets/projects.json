@@ -26,6 +26,31 @@
     },
     {
         "type": ["pro"],
+        "title": "MyCater",
+        "description": "Marketplace for Caterers.",
+        "tech": [{
+                "name": "TypeScript",
+                "logo": "bx bxl-typescript"
+            },
+            {
+                "name": "SCSS",
+                "logo": "fab fa-sass"
+            },
+            {
+                "name": "AdonisJS"
+            }
+        ],
+        "link": [{
+            "url": "https://mycater.fr/",
+            "logo": "fa-solid fa-play"
+        }],
+        "gif": "https://media1.giphy.com/media/l3V0gnmiNvCNz85Wg/giphy.gif?cid=6c09b952li3hwe5h5fu5n8hdn746xxov4sxivntlzmckjv8m&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
+        "img": "https://mycater.fr/assets/img/og.jpg",
+        "create_at": "2023/04/04",
+        "update_at": "2023/08/18"
+    },
+    {
+        "type": ["pro"],
         "title": "Aeria",
         "description": "Business application used for the distribution of replacement agents and the management of their diaries by the municipalities.",
         "tech": [{
@@ -135,7 +160,7 @@
     },
     {
         "type": ["perso"],
-        "title": "Heros.js",
+        "title": "Hero.js (V1)",
         "description": "JS game engine for Visual Novel games.",
         "tech": [{
                 "name": "HTML5",
@@ -150,11 +175,11 @@
             }
         ],
         "link": [{
-                "url": "https://github.com/ArthurTakase/Heros.js ",
+                "url": "https://github.com/ArthurTakase/Hero.js ",
                 "logo": "fab fa-github-alt"
             },
             {
-                "url": "https://arthurtakase.github.io/Heros.js/",
+                "url": "https://arthurtakase.github.io/Hero.js/",
                 "logo": "fa-solid fa-play"
             }
         ],
@@ -188,8 +213,7 @@
                 "logo": "bx bxl-c-plus-plus"
             },
             {
-                "name": "Haskell",
-                "logo": "fa-solid fa-lambda"
+                "name": "Haskell"
             }
         ],
         "link": [{
@@ -474,7 +498,12 @@
         "type": ["perso"],
         "title": "Trakt Wrapped",
         "description": "Like Spotify Wrapped, but for Trakt.tv (in progress)",
-        "tech": [{
+        "tech": [
+            {
+                "name": "SCSS",
+                "logo": "fab fa-sass"
+            },
+            {
             "name": "React",
             "logo": "bx bxl-react"
         }],
@@ -489,7 +518,30 @@
         ],
         "gif": "https://gifdb.com/images/high/500-days-of-summer-romantic-date-1x36lohronellqdn.gif",
         "img": "https://www.betaseries.com/blog/wp-content/uploads/2017/01/trakt-tv.bd49c3a6a68f421fb9eedfd14a78d87a.png",
-        "create_at": "2022/12/15",
-        "update_at": "2023/01/06"
+        "create_at": "2023/01/01",
+        "update_at": "2023/07/01"
+    },
+    {
+        "type": ["perso"],
+        "title": "Hero.js (V2)",
+        "description": "JS game engine for Visual Novel games.",
+        "tech": [
+            {
+                "name": "SCSS",
+                "logo": "fab fa-sass"
+            }, {
+                "name": "React",
+                "logo": "fab fa-react"
+            }
+        ],
+        "link": [{
+                "url": "https://github.com/ArthurTakase/Hero.js/tree/feat/v2",
+                "logo": "fab fa-github-alt"
+            }
+        ],
+        "gif": "https://thumbs.gfycat.com/AbleOrdinaryDogwoodclubgall-size_restricted.gif",
+        "img": "https://wallpapercave.com/wp/wp11705135.jpg",
+        "create_at": "2023/01/30",
+        "update_at": "2023/07/11"
     }
 ]

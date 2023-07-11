@@ -28,7 +28,7 @@ export default function Card({ project }) {
                 <p className="card-desc">{project.description}</p>
             </div>
             <div className="card-tag">
-                {project.tech.map(tech => { return <a key={tech.name + project.title} title={tech.name}><i className={tech.logo}></i></a> })}
+                {project.tech.map(tech => { return <a key={tech.name + project.title} title={tech.name}><i className={tech.logo}></i>{ tech.logo ? "" : <small>{tech.name}</small> }</a> })}
             </div>
             <div className="card-link">
                 {project.link.map(link => { return <a key={link.url} href={link.url} target="_blank"><i className={link.logo}></i></a> })}
