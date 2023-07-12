@@ -89,25 +89,27 @@
                 }
             }
         }
-        a:hover {
-            &:nth-child(1) {
-                width: 7.8rem;
-            }
-            &:nth-child(2) {
-                width: 8.8rem;
-            }
-            &:nth-child(3) {
-                width: 10.3rem;
-            }
-            &:nth-child(4) {
-                width: 4.8rem;
-            }
-            background: $accent_color;
-            color: $accent_text;
-            justify-content: left;
-            p {
-                opacity: 1;
-                display: flex;
+        @media screen and (min-width: 600px) {
+            a:hover {
+                &:nth-child(1) {
+                    width: 7.8rem;
+                }
+                &:nth-child(2) {
+                    width: 8.8rem;
+                }
+                &:nth-child(3) {
+                    width: 10.3rem;
+                }
+                &:nth-child(4) {
+                    width: 4.8rem;
+                }
+                background: $accent_color;
+                color: $accent_text;
+                justify-content: left;
+                p {
+                    opacity: 1;
+                    display: flex;
+                }
             }
         }
     }
