@@ -16,7 +16,6 @@ nav {
     top: 0;
     gap: 1.5rem;
     z-index: 100;
-    transition-duration: .2s;
     .navLink:first-child {
         position: absolute;
         top: .8rem;
@@ -57,7 +56,6 @@ nav {
     align-items: center;
     height: 2rem;
     width: 2rem;
-    transition-duration: 0.3s;
     cursor: pointer;
     background: none;
     border: none;

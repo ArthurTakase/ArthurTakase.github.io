@@ -5,7 +5,8 @@ export default function About() {
     const url = {
         "github": "https://github.com/ArthurTakase",
         "linkedin": "https://www.linkedin.com/in/arthur-decaen-a49335207/",
-        "artstation": "https://takaaase.artstation.com/"
+        "artstation": "https://takaaase.artstation.com/",
+        "cv": "https://rxresu.me/fr/r/XVjS8y_v"
     }
 
     return (
@@ -24,6 +25,7 @@ export default function About() {
                     <a href={url["github"]} target="_blank"><i className="fa-brands fa-github about-icon"></i><p>Github</p></a>
                     <a href={url["linkedin"]} target="_blank"><i className="fa-brands fa-linkedin about-icon"></i><p>LinkedIn</p></a>
                     <a href={url["artstation"]} target="_blank"><i className="fa-brands fa-artstation about-icon"></i><p>ArtStation</p></a>
+                    <a href={url["cv"]} target="_blank"><i className='bx bx-file about-icon'></i><p>CV</p></a>
                 </div>
             </div>
         </div>

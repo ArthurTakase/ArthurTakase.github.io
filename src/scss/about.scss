@@ -44,7 +44,6 @@
         padding: 0;
         font-size: 2rem;
         max-width: 60vw;
-        transition-duration: .2s;
     }
     .btn-zone {
         height: 100%;
@@ -55,7 +54,7 @@
         gap: 1rem;
         padding-top: 2rem;
         a {
-            transition-duration: .5s;
+            transition: width .5s;
             background: $nav_back;
             color: $icon_color;
             border-radius: 1rem;
@@ -72,7 +71,7 @@
                 text-align: center;
             }
             p {
-                transition-duration: .5s;
+                transition: width .5s;
                 margin-left: .5rem;
                 font-size: 1.5rem;
                 display: none;
@@ -99,6 +98,9 @@
             }
             &:nth-child(3) {
                 width: 10.3rem;
+            }
+            &:nth-child(4) {
+                width: 4.8rem;
             }
             background: $accent_color;
             color: $accent_text;

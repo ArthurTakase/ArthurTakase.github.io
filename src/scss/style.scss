@@ -10,8 +10,6 @@ body {
     background: $backgroud_color;
     margin: 0;
     padding: 0;
-    scroll-behavior: smooth;
-    transition-duration: .2s;
     overflow-x: hidden;
 }
 
@@ -34,7 +32,6 @@ body {
     align-items: center;
     flex-wrap: wrap;
     backdrop-filter: blur(5px);
-    transition-duration: .3s;
     @media only screen and (max-width: 600px) {
         width: calc(100vw - 2rem);
         min-height: calc(100vh - 7rem);
