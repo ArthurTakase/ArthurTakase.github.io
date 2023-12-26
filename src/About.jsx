@@ -6,7 +6,7 @@ export default function About() {
         "github": "https://github.com/ArthurTakase",
         "linkedin": "https://www.linkedin.com/in/arthur-decaen-a49335207/",
         "artstation": "https://takaaase.artstation.com/",
-        "cv": "https://rxresu.me/fr/r/XVjS8y_v"
+        "cv": "https://rxresu.me/decaen.pro/full"
     }
 
     return (
@@ -18,7 +18,7 @@ export default function About() {
                 <p>Hi, I'm</p>
                 <h1>ARTHUR DECAEN</h1>
                 <p>
-                    3rd year student at Epitech.<br />
+                    Studying for a Masters (Epitech MSC) after 3 years at Epitech.<br />
                     I code, I draw and in between, I watch Movies.
                 </p>
                 <div className='btn-zone'>

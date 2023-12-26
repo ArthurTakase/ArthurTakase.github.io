@@ -1,0 +1,26 @@
+[
+    {
+        "path": "/wrapped",
+        "current": "wrapped",
+        "navbar_img": "https://play-lh.googleusercontent.com/n0SqzImml-_GwGHQJRIRQs2IgHELIZPH_GZIwSl7c71qhok8dgZh7rQvOH1jihkVhw",
+        "title": "Trakt Wrapped",
+        "desc": "Like Spotify Wrapped, but for Trakt.tv. Trakt Wrapped is a website that allows you to see your statistics on Trakt.tv. You can see your most watched movies, series, actors, directors, ...",
+        "link": "https://trakt-wrapped.vercel.app/",
+        "background_src": "../assets/wrapped_back.jpeg",
+        "background_class": "dark",
+        "img_src": "../assets/wrapped.png",
+        "img_class": "height_80 radius_1 width_80_xs"
+    },
+    {
+        "path": "/herojs",
+        "current": "herojs",
+        "navbar_img": "../assets/herojs.png",
+        "title": "HeroJS",
+        "desc": "Hero.js is an Open Source project of Visual Novel game engine. The goal of this project is to allow you to create Visual Novels (from a simple Doki Doki to a RPG with fighting system), without coding. So what are you waiting for to start creating your stories?",
+        "link": "https://arthurtakase.github.io/Hero.js",
+        "background_src": "../assets/heroInterface.png",
+        "img_src": "../assets/doki.png",
+        "img_class": "height_100 bottom",
+        "macaron": "V2 coming soon !"
+    }
+]

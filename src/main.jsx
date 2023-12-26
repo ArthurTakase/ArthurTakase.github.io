@@ -4,9 +4,11 @@ import { HashRouter, Route, Routes } from 'react-router-dom'
 
 import './scss/style.scss'
 
+import bigProject from './assets/bigProjects.json'
+
 import List from './List.jsx'
 import About from './About.jsx'
-import Herojs from './HeroJs.jsx'
+import Project from './components/Project.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <HashRouter>
@@ -16,7 +18,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path='/game' element={<List type="game" />} />
             <Route path='/pro' element={<List type="pro" />} />
             <Route path='/perso' element={<List type="perso" />} />
-            <Route path='/herojs' element={<Herojs />} />
+            {
+                bigProject.map(project => (
+                    <Route
+                        key={project.current}
+                        path={`/${project.path}`}
+                        element={<Project project={project} />} />
+                ))
+            }
         </Routes>
     </HashRouter>
 )

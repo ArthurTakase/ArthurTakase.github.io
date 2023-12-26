@@ -1,5 +1,6 @@
 import '../scss/navbar.scss'
 import { Navlink, NavlinkPicture } from './Navlink'
+import bigProject from '../assets/bigProjects.json'
 
 export default function Navbar({current}) {
     return (
@@ -8,7 +9,17 @@ export default function Navbar({current}) {
             <Navlink current={current} to="pro" icon="bx-buildings" />
             <Navlink current={current} to="perso" icon="bx-user" />
             <Navlink current={current} to="game" icon="bx-joystick-alt" />
-            <NavlinkPicture current={current} to="herojs" img='../assets/herojs.png' />
+
+            {
+                bigProject.map(project => (
+                    <NavlinkPicture
+                        key={project.current}
+                        current={current}
+                        to={project.current}
+                        img={project.navbar_img}
+                    />
+                ))
+            }
         </nav>
     )
 }

@@ -33,7 +33,7 @@ export default function List({type}) {
                         <div className="projects">
                         {
                             dict[year].map(p => (
-                                <Card key={p.id} project={p}/>
+                                <Card key={p.title} project={p}/>
                             ))
                         }
                         </div>
