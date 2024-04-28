@@ -24,10 +24,11 @@
             }
         ],
         "link": [],
-        "gif": "https://media2.giphy.com/media/DHqth0hVQoIzS/giphy.gif",
         "img": "https://zupimages.net/up/21/39/xdhp.jpg",
         "create_at": "2021/09/01",
-        "update_at": "2022/12/01"
+        "update_at": "2022/12/01",
+        "employers": "Conseil Départemental de la Gironde",
+        "visibility": "Private"
     },
     {
         "type": [
@@ -51,13 +52,14 @@
         "link": [
             {
                 "url": "https://mycater.fr/",
-                "logo": "fa-solid fa-play"
+                "name": "Website"
             }
         ],
-        "gif": "https://media1.giphy.com/media/l3V0gnmiNvCNz85Wg/giphy.gif?cid=6c09b952li3hwe5h5fu5n8hdn746xxov4sxivntlzmckjv8m&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=g",
-        "img": "https://mycater.fr/assets/img/og.jpg",
+        "img": "mycater.png",
         "create_at": "2023/04/04",
-        "update_at": "2023/08/18"
+        "update_at": "2023/08/18",
+        "employers": "MyCater (MyCompany)",
+        "visibility": "Public"
     },
     {
         "type": [
@@ -84,10 +86,11 @@
             }
         ],
         "link": [],
-        "gif": "https://media.tenor.com/qCuf8PpZ-78AAAAC/substituir-kakashi-hatake.gif",
         "img": "https://images.unsplash.com/photo-1527219525722-f9767a7f2884?q=80&w=2973&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "create_at": "2022/09/27",
-        "update_at": "2023/03/30"
+        "update_at": "2023/03/30",
+        "employers": "Conseil Départemental de la Gironde",
+        "visibility": "Private"
     },
     {
         "type": [
@@ -110,10 +113,11 @@
             }
         ],
         "link": [],
-        "gif": "https://media.tenor.com/0vCy1vzvWgQAAAAC/holiday-vacation.gif",
         "img": "https://zupimages.net/up/21/32/vzvv.png",
         "create_at": "2021/07/01",
-        "update_at": "2021/12/01"
+        "update_at": "2021/12/01",
+        "employers": "Conseil Départemental de la Gironde",
+        "visibility": "Private"
     },
     {
         "type": [
@@ -140,17 +144,18 @@
             }
         ],
         "link": [],
-        "gif": "dsinplan.gif",
         "img": "https://zupimages.net/up/21/42/7wxm.png",
         "create_at": "2021/10/01",
-        "update_at": "2021/12/01"
+        "update_at": "2021/12/01",
+        "employers": "Conseil Départemental de la Gironde",
+        "visibility": "Private"
     },
     {
         "type": [
             "game"
         ],
         "title": "UFO County",
-        "description": "Explore an island with your spaceship to bring back a lot of stuff to your planet. ~Ludum Dare 52~",
+        "description": "Explore an island with your spaceship to bring back a lot of stuff to your planet.",
         "tech": [
             {
                 "name": "Unity",
@@ -160,13 +165,14 @@
         "link": [
             {
                 "url": "https://takase.itch.io/ufo-county",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
         "gif": "ufo.gif",
         "img": "ufo.png ",
         "create_at": "2023/01/06",
-        "update_at": "2023/01/09"
+        "update_at": "2023/01/09",
+        "gamejam": "Ludum Dare 52"
     },
     {
         "type": [
@@ -183,13 +189,13 @@
         "link": [
             {
                 "url": "https://mega.nz/file/wo8mURDK#ZGF02X2i0cFEWYwWF9nCGJvDBwOzJBlzLk3PYVLNZhU",
-                "logo": "fa-solid fa-download"
+                "name": "Download (APK)"
             }
         ],
-        "gif": "blue.gif",
         "img": "blue.png ",
         "create_at": "2022/03/01",
-        "update_at": "2022/03/01"
+        "update_at": "2022/03/01",
+        "gamejam": "Epitech Jam"
     },
     {
         "type": [
@@ -214,15 +220,14 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/Hero.js ",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             },
             {
                 "url": "https://arthurtakase.github.io/Hero.js/",
-                "logo": "fa-solid fa-play"
+                "name": "Website"
             }
         ],
-        "gif": "herosjs.gif",
-        "img": "https://zupimages.net/up/21/39/rrpg.jpg",
+        "img": "herojs4.jpeg",
         "create_at": "2021/10/03",
         "update_at": "2022/10/14"
     },
@@ -260,11 +265,10 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/Epitech-Bundle",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             }
         ],
-        "gif": "https://media.giphy.com/media/GD2e9EJ0uDrzO/giphy.gif",
-        "img": "https://zupimages.net/up/22/14/f6ax.jpg",
+        "img": "epitech.jpeg",
         "create_at": "2021/07/01",
         "update_at": "2022/08/15"
     },
@@ -295,15 +299,14 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle ",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             },
             {
                 "url": "https://arthurtakase.github.io/LittleGamesBundle",
-                "logo": "fa-solid fa-play"
+                "name": "Play all games"
             }
         ],
-        "gif": "https://i.imgur.com/2tcU5w8.gif",
-        "img": "https://zupimages.net/up/21/39/hipn.png",
+        "img": "gamebundle.jpeg",
         "create_at": "2020/02/01",
         "update_at": "2023/01/01"
     },
@@ -326,67 +329,80 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/AdventOfCode",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             }
         ],
-        "gif": "https://media3.giphy.com/media/l3vQXnSDsC2V4eScg/giphy.gif",
-        "img": "https://media.discordapp.net/attachments/513278653254336513/1234073759632199710/b0a96000-346a-11eb-8581-79749c4d7ecc.png?ex=662f6840&is=662e16c0&hm=7d89f5cdea64f0c10a1b80ca3c8c6ed1212ffd06268fcfa61d100bf9438ef6f4&=&format=webp&quality=lossless&width=2352&height=1176",
+        "img": "adventofcode.jpeg",
         "create_at": "2021/12/01",
-        "update_at": "2022/12/15"
+        "update_at": "2022/12/15",
+        "comments": [
+            {
+                "title": "2021 calendar",
+                "content": "9.5/25, in JS"
+            },
+            {
+                "title": "2022 calendar",
+                "content": "11/25, in Python"
+            }
+        ]
     },
     {
         "type": [
             "game"
         ],
         "title": "Carotte",
-        "description": "'Brazil'. Don't let your plantations catch fire! Water them as much as possible to keep as much as possible at the end of the timer. Game made during a 3h mini-jam",
+        "description": "'Brazil'. Don't let your plantations catch fire! Water them as much as possible to keep as much as possible at the end of the timer.",
         "tech": [
             {
-                "name": "Construct 2",
-                "logo": "fa-solid fa-gear"
+                "name": "Construct 2"
             }
         ],
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Carottes",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             },
             {
                 "url": "https://arthurtakase.github.io/LittleGamesBundle/Carottes/index.html",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://64.media.tumblr.com/7bc3d35afc037695fa04e6d43b9f263d/8202699ac73edc7a-92/s540x810/97bca546fed21a61f2de0a0644fe8254cdca82e3.gif",
         "img": "carottes.png",
         "create_at": "2021/01/01",
-        "update_at": "2021/01/01"
+        "update_at": "2021/01/01",
+        "gamejam": "3 hours jam - Brazil",
+        "comments": [
+            {
+                "title": "Goal",
+                "content": "The aim of this project was to learn the basics of the Construct2 engine in less than 3 hours, and use it in a gamejam a few days later."
+            }
+        ]
     },
     {
         "type": [
             "game"
         ],
         "title": "Elle",
-        "description": "'Past, Present and Future.' Follow the story of a young man through different periods of his life. Game realized for the 1st Epitech Jam",
+        "description": "Follow the story of a young man through different periods of his life.",
         "tech": [
             {
-                "name": "Construct 2",
-                "logo": "fa-solid fa-gear"
+                "name": "Construct 2"
             }
         ],
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Elle",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             },
             {
                 "url": "https://arthurtakase.github.io/LittleGamesBundle/Elle/index.html",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://gifdb.com/images/thumbnail/500-days-of-summer-movie-aesthetic-ending-4kcsjbi6k9kouuaj.gif",
         "img": "elle.png",
         "create_at": "2021/02/01",
-        "update_at": "2021/02/01"
+        "update_at": "2021/02/01",
+        "gamejam": "Epitech Jam - Past, Present and Future"
     },
     {
         "type": [
@@ -403,24 +419,24 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/FamilyJam",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             },
             {
                 "url": "https://arthurtakase.github.io/LittleGamesBundle/FamilyJam/index.html",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://media.tenor.com/CZiVPwCvGoYAAAAC/vin-diesel-fast-and-furious.gif",
-        "img": "https://i.ytimg.com/vi/O3Tij2seTjI/maxresdefault.jpg",
+        "img": "family.jpeg",
         "create_at": "2022/05/01",
-        "update_at": "2022/05/01"
+        "update_at": "2022/05/01",
+        "gamejam": "Epitech Jam - Family"
     },
     {
         "type": [
             "game"
         ],
         "title": "Feed The Panda",
-        "description": "Feed a beautiful little panda with the burgers he asks for ! Produced for the Ludum Dare 46",
+        "description": "Feed a beautiful little panda with the burgers he asks for !",
         "tech": [
             {
                 "name": "Python",
@@ -430,40 +446,59 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Feed-The-Panda",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             }
         ],
-        "gif": "https://i.pinimg.com/originals/77/2e/c4/772ec4634d75bb5e61e18a03146458fe.gif",
         "img": "https://static.jam.host/content/951/d2/z/2d977.png.480x384.fit.jpg",
         "create_at": "2020/04/01",
-        "update_at": "2020/04/01"
+        "update_at": "2020/04/01",
+        "gamejam": "Ludum Dare 46",
+        "comments": [
+            {
+                "title": "Nostalgia",
+                "content": "My very first ever GameJam. Very good experience."
+            }
+        ]
     },
     {
         "type": [
             "game"
         ],
         "title": "Klepto",
-        "description": "'Lost and Found'. Thief! Steal as many objects as possible before the police arrive and catch you. Game made for the GGJ 2021.",
+        "description": "Thief! Steal as many objects as possible before the police arrive and catch you.",
         "tech": [
             {
-                "name": "Construct 2",
-                "logo": "fa-solid fa-gear"
+                "name": "Construct 2"
             }
         ],
         "link": [
             {
-                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Elle",
-                "logo": "fab fa-github-alt"
+                "url": "https://arthurtakase.github.io/LittleGamesBundle/Klepto/index.html",
+                "name": "Play"
             },
             {
-                "url": "https://arthurtakase.github.io/LittleGamesBundle/Klepto/index.html",
-                "logo": "fa-solid fa-play"
+                "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Elle",
+                "name": "Github"
+            },
+            {
+                "url": "https://data.bnf.fr/17972344/klept_o/",
+                "name": "BNF"
+            },
+            {
+                "url": "https://v3.globalgamejam.org/2021/games/klepto-2",
+                "name": "GGJ"
             }
         ],
-        "gif": "https://www.slate.fr/sites/default/files/2016-12-21-201230.gif",
+        "comments": [
+            {
+                "title": "BNF Certification",
+                "content": "This project can be found in the resources of the Bibliothèque Nationale de France (BNF). With it, I'm officially a 'Video game developer and computer graphics designer'!"
+            }
+        ],
         "img": "klepto.png",
         "create_at": "2021/01/25",
-        "update_at": "2021/01/25"
+        "update_at": "2021/01/25",
+        "gamejam": "Global Game Jam 2021 - Lost and Found"
     },
     {
         "type": [
@@ -480,13 +515,18 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/LabyRunner",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             }
         ],
-        "gif": "https://media.tenor.com/tLenDyYgNQYAAAAC/dylan-o-brien-maze-runner3de.gif",
         "img": "https://www.labyrintheduthimerais.fr/wp-content/uploads/n0uW9B/2022/03/labyrinthes-vegetaux-de-france-et-dailleurs-004.jpg",
         "create_at": "2020/02/01",
-        "update_at": "2020/02/01"
+        "update_at": "2020/02/01",
+        "comments": [
+            {
+                "title": "ISN",
+                "content": "Initially, this project was to be submitted for a final exam (baccalauréat). But I finished it too quickly and had to find other ideas to present."
+            }
+        ]
     },
     {
         "type": [
@@ -503,14 +543,13 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/LittleGamesBundle/tree/master/Random-Story",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             },
             {
                 "url": "https://arthurtakase.github.io/LittleGamesBundle/Random-Story/index.html",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://media.giphy.com/media/11nqZwfoLGKPPa/giphy.gif",
         "img": "randomstory.png",
         "create_at": "2020/10/01",
         "update_at": "2020/10/01"
@@ -520,7 +559,7 @@
             "game"
         ],
         "title": "Twins",
-        "description": "Make your way through a dark forest with the help of a strange ally. Game made for the 2nd Epitech Jam.",
+        "description": "Make your way through a dark forest with the help of a strange ally.",
         "tech": [
             {
                 "name": "Unity",
@@ -530,20 +569,20 @@
         "link": [
             {
                 "url": "https://arthurtakase.github.io/LittleGamesBundle/Twins/index.html",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://media.tenor.com/2mcR5I9vrWAAAAAC/twins-twinsies.gif",
         "img": "twins.png",
         "create_at": "2021/03/01",
-        "update_at": "2021/03/01"
+        "update_at": "2021/03/01",
+        "gamejam": "Epitech Jam #2 - Together"
     },
     {
         "type": [
             "game"
         ],
         "title": "Where is Patrick ?",
-        "description": "Epitech Jam #3 'Anonymity'",
+        "description": "Can you find Patrick in the crowd?",
         "tech": [
             {
                 "name": "Unity",
@@ -553,20 +592,26 @@
         "link": [
             {
                 "url": "https://takase.itch.io/where-is-patrick",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://media.tenor.com/9ppNC0UBHbUAAAAd/charlie-day-its-always-sunny-in-philadelphia.gif",
         "img": "patrick.png",
         "create_at": "2021/05/01",
-        "update_at": "2021/05/01"
+        "update_at": "2021/05/01",
+        "gamejam": "Epitech Jam #3 - Anonymity",
+        "comments": [
+            {
+                "title": "Let's discover Unity 3D",
+                "content": "First experience with Unity 3d. Not much is clean, but the discovery was nice."
+            }
+        ]
     },
     {
         "type": [
             "game"
         ],
         "title": "Escape from Michelov",
-        "description": "Epitech Jam #4 'Succesful'",
+        "description": "Explore an abandoned town while escaping a monstrous gorilla in this horror game inspired by The Forest.",
         "tech": [
             {
                 "name": "Unity",
@@ -576,13 +621,13 @@
         "link": [
             {
                 "url": "https://takase.itch.io/escape-from-michelov",
-                "logo": "fa-solid fa-play"
+                "name": "Play"
             }
         ],
-        "gif": "https://mir-s3-cdn-cf.behance.net/project_modules/disp/f7c01b21342117.562ff92c13ddd.gif",
         "img": "https://img.itch.zone/aW1nLzgxNjQ3NjcuanBn/315x250%23c/oXPYhg.jpg",
         "create_at": "2022/02/01",
-        "update_at": "2022/02/01"
+        "update_at": "2022/02/01",
+        "gamejam": "Epitech Jam #4 - Succesful"
     },
     {
         "type": [
@@ -599,13 +644,18 @@
         "link": [
             {
                 "url": "https://arthurtakase.github.io/Peipln/",
-                "logo": "fa-solid fa-play"
+                "name": "Website"
             }
         ],
-        "gif": "https://i.pinimg.com/originals/fd/c9/90/fdc9902f493e1ecbe0e4c318f8296afc.jpg",
-        "img": "https://www.toutelatele.com/IMG/logo/arton104754.jpg?1541429690",
+        "img": "quizz.jpeg",
         "create_at": "2022/08/15",
-        "update_at": "2022/10/19"
+        "update_at": "2022/10/19",
+        "comments": [
+            {
+                "title": "WIP",
+                "content": "This project is still only a POC. As it stands, it works, but a complete overhaul would be necessary to make full use of it."
+            }
+        ]
     },
     {
         "type": [
@@ -626,17 +676,22 @@
         "link": [
             {
                 "url": "https://trakt-wrapped.vercel.app/",
-                "logo": "fa-solid fa-play"
+                "name": "Website"
             },
             {
                 "url": "https://github.com/ArthurTakase/TraktWrapped",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             }
         ],
-        "gif": "https://gifdb.com/images/high/500-days-of-summer-romantic-date-1x36lohronellqdn.gif",
-        "img": "https://www.betaseries.com/blog/wp-content/uploads/2017/01/trakt-tv.bd49c3a6a68f421fb9eedfd14a78d87a.png",
+        "img": "trakt3.jpeg",
         "create_at": "2023/01/01",
-        "update_at": "2023/07/01"
+        "update_at": "2023/07/01",
+        "comments": [
+            {
+                "title": "Want to try?",
+                "content": "Want to try the site without a Trakt account? Try entering my username 'takaaase_'!"
+            }
+        ]
     },
     {
         "type": [
@@ -657,12 +712,21 @@
         "link": [
             {
                 "url": "https://github.com/ArthurTakase/Hero.js/tree/feat/v2",
-                "logo": "fab fa-github-alt"
+                "name": "Github"
             }
         ],
-        "gif": "https://media.giphy.com/media/Fo8avUd7FdmfhMXl2v/giphy.gif",
-        "img": "https://wallpapercave.com/wp/wp11705135.jpg",
+        "img": "wip.jpeg",
         "create_at": "2023/01/30",
-        "update_at": "2023/07/11"
+        "update_at": "2023/07/11",
+        "comments": [
+            {
+                "title": "WIP",
+                "content": "This project is still in development."
+            },
+            {
+                "title": "New features",
+                "content": "This new version of Hero.JS aims to completely overhaul the generator to make the games even more customisable. Unfortunately it's taking a long time to get going, but the project is still underway."
+            }
+        ]
     }
 ]

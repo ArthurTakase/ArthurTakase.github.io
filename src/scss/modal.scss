@@ -1,0 +1,115 @@
+@import "colors.scss";
+.modal {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    width: 100% !important;
+    height: 100% !important;
+    z-index: 1000;
+    .rodal-dialog {
+        border-radius: 0.5rem;
+        max-width: 90svw;
+        min-width: 600px;
+        height: fit-content !important;
+        max-height: 90svh;
+        overflow: hidden;
+        padding: 0;
+        background: $nav_back;
+        color: $accent_text;
+        box-shadow: #00000034 0rem 0.5rem 0.5rem;
+        backdrop-filter: blur(30px);
+        padding-bottom: 1rem;
+        @media only screen and (max-width: 600px) {
+            width: 95svw;
+            min-width: 95svw;
+        }
+    }
+    .modalHeaderPicture {
+        height: 120px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .modalInfos {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .modalTitle {
+        color: $accent_color;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    .moadlTag {
+        color: $accent_color;
+        font-size: 1.2rem;
+        font-weight: bold;
+        a {
+            // border: solid $accent_color 0.1rem;
+            border-radius: 5px;
+            padding: 0.2rem;
+        }
+    }
+    .modalSubInfos {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        opacity: 0.5;
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+        span::before {
+            content: "•";
+            margin-right: 0.5rem;
+        }
+    }
+    .modalDescription {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1rem;
+    }
+    .modalComments {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        article {
+            background: rgba(46, 45, 45, 0.546);
+            border-radius: 10px;
+            padding: 0.5rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            h1 {
+                font-size: 0.8rem;
+                font-weight: thin;
+                padding: 0;
+                margin: 0;
+            }
+            h2 {
+                font-size: 1rem;
+                font-weight: normal;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+    .modalLink {
+        color: $accent_color_2;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            width: fit-content;
+        }
+    }
+}

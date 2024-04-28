@@ -1,24 +1,31 @@
 import '../scss/card.scss'
+import Modal from './Modal'
+import { useState } from 'react'
 
 export default function Card({ project }) {
-    function getPicture(url) {
+    const [open, setOpen] = useState(false)
+
+    const getPicture = (url) => {
         if (url.startsWith("http")) { return url }
         return `../assets/${url}`
     }
 
+    const handleClick = () => {
+        console.log('click')
+        setOpen(true)
+    }
+
     return (
-        <article className="card" tabIndex={0}>
+        <>
+        <Modal project={project} open={open} setOpen={setOpen} />
+        <article className="card" tabIndex={0} onClick={() => handleClick()}>
             <img className="card-img" src={getPicture(project.img)} />
+            <p className="card-title">{project.title}</p>
             <div className="card-infos">
                 <p className="card-header">{project.title}</p>
                 <p className="card-desc">{project.description}</p>
             </div>
-            <div className="card-tag">
-                {project.tech.map(tech => { return <a key={tech.name + project.title} title={tech.name}><i className={tech.logo}></i>{ tech.logo ? "" : <small>{tech.name}</small> }</a> })}
-            </div>
-            <div className="card-link">
-                {project.link.map(link => { return <a key={link.url} href={link.url} target="_blank"><i className={link.logo}></i></a> })}
-            </div>
         </article>
+        </>
     )
 }
