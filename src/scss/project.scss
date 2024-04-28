@@ -1,37 +1,19 @@
 @import "colors.scss";
-.back {
-    position: fixed;
-    top: 0;
-    height: 100vh;
-    filter: blur(2px);
-    opacity: 0.5;
-    animation: fadeIn 0.5s;
-    display: flex;
-    justify-content: center;
-    @keyframes fadeIn {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 0.5;
-        }
-    }
-    &.dark {
-        filter: blur(2px) brightness(0.1);
-    }
-}
 
 .project {
     .macaron {
         position: absolute;
-        top: 0;
-        right: -22px;
-        rotate: 15deg;
-        background: $accent_color;
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        border-radius: 1rem;
-        box-shadow: 0rem 0rem 2rem 0.8rem rgba(0, 0, 0, 0.2);
-        color: $accent_text;
+        bottom: 0;
+        right: 45px;
+        margin: 0.5rem;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0.6rem;
+        padding-right: 0.6rem;
+        color: $accent_color;
+        border-radius: 0.5rem;
     }
     h1 {
         color: $accent_color;
@@ -50,16 +32,21 @@
     a {
         color: $accent_text;
         text-decoration: none;
-        background: $accent_color;
-        padding: 0.5rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         position: absolute;
         bottom: 0;
-        border-radius: 1rem 1rem 0 0;
+        right: 0;
+        margin: 0.5rem;
+        height: 40px;
+        width: 40px;
+        font-size: 1.5rem;
+        background-color: $accent_color;
+        border-radius: 0.5rem;
         transition: scale 0.2s;
         &:hover {
-            scale: 1.05 1;
+            scale: 1.1;
         }
     }
     .infos {
@@ -71,13 +58,12 @@
         bottom: 4rem;
         margin: 1rem;
         padding: 1rem;
-        padding-bottom: 4rem;
+        padding-bottom: 3rem;
         background: $nav_back;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(30px);
         border-radius: 1rem;
         max-width: 50rem;
-        border: solid $accent_color 0.2rem;
-        box-shadow: 0rem 0rem 2rem 0.8rem rgba(0, 0, 0, 0.466);
+        box-shadow: #00000034 0rem 0.5rem 0.5rem;
     }
     img {
         position: absolute;

@@ -25,7 +25,7 @@ export default function Project({
                     { macaron ? <div className="macaron">{macaron}</div> : <></> }
                     <h1>{title}</h1>
                     <p>{desc}</p>
-                    <a href={link} target={"_blank"}>Go to Website</a>
+                    <a href={link} target={"_blank"}><i className='bx bx-play'></i></a>
                 </div>
             </div>
         </div>

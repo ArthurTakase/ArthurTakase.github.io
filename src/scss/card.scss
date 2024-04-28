@@ -31,10 +31,10 @@ a {
     &:active {
         overflow: hidden;
         cursor: pointer;
-        box-shadow: inset $accent_color 0rem 0rem 0rem 0.2rem;
+        box-shadow: inset $accent_color 0rem 0rem 0rem 2px;
         .card-img {
             opacity: 20%;
-            filter: blur(10px);
+            filter: blur(30px);
         }
         .card-infos,
         .card-tag,
@@ -48,12 +48,10 @@ a {
     0% {
         opacity: 0;
         translate: 0 50px;
-        // transform: scale(0.5);
     }
     100% {
         opacity: 100%;
         translate: 0 0;
-        // transform: scale(1);
     }
 }
 

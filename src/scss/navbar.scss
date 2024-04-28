@@ -1,7 +1,7 @@
 @import "colors.scss";
 nav {
     background: $nav_back;
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(30px);
     display: flex;
     flex-direction: column;
     justify-content: center;

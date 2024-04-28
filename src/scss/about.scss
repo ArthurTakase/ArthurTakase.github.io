@@ -2,7 +2,7 @@
 .back {
     &.about-back {
         opacity: 0.2 !important;
-        filter: blur(10px) !important;
+        filter: blur(30px) !important;
         width: 100%;
         object-fit: cover;
         animation: fade 0.5s ease-in;
@@ -59,6 +59,7 @@
             transition: width 0.5s;
             background: $nav_back;
             color: $icon_color;
+            box-shadow: #00000034 0rem 0.5rem 0.5rem;
             border-radius: 1rem;
             font-weight: bold;
             display: flex;
