@@ -231,7 +231,7 @@
             "perso"
         ],
         "title": "Epitech Bundle",
-        "description": "All projects at Epitech (tek1 & 2).",
+        "description": "All projects at Epitech (tek1, 2 and 3).",
         "tech": [
             {
                 "name": "C",
@@ -330,7 +330,7 @@
             }
         ],
         "gif": "https://media3.giphy.com/media/l3vQXnSDsC2V4eScg/giphy.gif",
-        "img": "https://blogs.sap.com/wp-content/uploads/2020/11/EkaoQQTXEAMA4BN.jpg",
+        "img": "https://media.discordapp.net/attachments/513278653254336513/1234073759632199710/b0a96000-346a-11eb-8581-79749c4d7ecc.png?ex=662f6840&is=662e16c0&hm=7d89f5cdea64f0c10a1b80ca3c8c6ed1212ffd06268fcfa61d100bf9438ef6f4&=&format=webp&quality=lossless&width=2352&height=1176",
         "create_at": "2021/12/01",
         "update_at": "2022/12/15"
     },

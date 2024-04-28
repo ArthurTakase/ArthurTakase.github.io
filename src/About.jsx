@@ -13,7 +13,6 @@ export default function About() {
     <>
         <Navbar current="about"/>
         <div className="main">
-            <img className="back about-back" src="https://picsum.photos/1920/1080" alt=""/>
             <div className="about">
                 <p>Hi, I'm</p>
                 <h1>ARTHUR DECAEN</h1>

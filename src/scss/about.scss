@@ -1,11 +1,11 @@
-@import 'colors.scss';
+@import "colors.scss";
 .back {
     &.about-back {
-        opacity: .2 !important;
+        opacity: 0.2 !important;
         filter: blur(10px) !important;
         width: 100%;
         object-fit: cover;
-        animation: fade .5s ease-in;
+        animation: fade 0.5s ease-in;
         z-index: -1;
     }
 }
@@ -23,10 +23,10 @@
         padding: 0;
         font-size: 5rem;
         line-height: 6rem;
-        animation: up .5s ease-in;
+        animation: up 0.5s;
         @keyframes up {
             0% {
-                translate: 0 -10px;
+                translate: 0 10px;
                 opacity: 0;
             }
             100% {
@@ -36,7 +36,7 @@
         }
     }
     p:first-of-type {
-        opacity: .5;
+        opacity: 0.5;
         font-size: 1.8rem;
     }
     p {
@@ -54,7 +54,7 @@
         gap: 1rem;
         padding-top: 2rem;
         a {
-            transition: width .5s;
+            transition: width 0.5s;
             background: $nav_back;
             color: $icon_color;
             border-radius: 1rem;
@@ -71,14 +71,14 @@
                 text-align: center;
             }
             p {
-                transition: width .5s;
-                margin-left: .5rem;
+                transition: width 0.5s;
+                margin-left: 0.5rem;
                 font-size: 1.5rem;
                 display: none;
                 opacity: 0;
                 width: 0%;
                 color: $accent_text;
-                animation: maxSize .5s;
+                animation: maxSize 0.5s;
                 @keyframes maxSize {
                     0% {
                         width: 0;
@@ -103,7 +103,7 @@
                 &:nth-child(4) {
                     width: 4.8rem;
                 }
-                background: $accent_color;
+                background: rgba($accent_color, 0.5);
                 color: $accent_text;
                 justify-content: left;
                 p {
@@ -131,6 +131,7 @@
         }
         .btn-zone {
             justify-content: center;
+            width: 100%;
         }
     }
 }

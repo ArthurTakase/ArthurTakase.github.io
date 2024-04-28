@@ -22,8 +22,6 @@ body {
 }
 
 .main {
-    background: $backgroud_color;
-    width: calc(100vw - 7rem);
     padding: 1rem;
     min-height: calc(100vh - 2rem);
     padding-left: 6rem;
@@ -31,7 +29,6 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    backdrop-filter: blur(5px);
     @media only screen and (max-width: 600px) {
         width: calc(100vw - 2rem);
         min-height: calc(100vh - 7rem);

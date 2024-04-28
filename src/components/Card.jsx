@@ -6,22 +6,8 @@ export default function Card({ project }) {
         return `../assets/${url}`
     }
 
-    function changeBackground(url) {
-        if (!url) {
-            document.getElementsByClassName("main")[0].style.background = "rgb(0, 0, 0)"
-            return;
-        }
-        document.getElementsByClassName("main")[0].style.background = "rgba(0, 0, 0, 0.5)"
-        document.body.style.background = "url(" + url + ")"
-        document.body.style.backgroundSize = "cover"
-        document.body.style.backgroundAttachment = "fixed"
-    }
-
     return (
-        <article className="card" tabIndex={0}
-            onMouseEnter={() => changeBackground(project.gif ? getPicture(project.gif) : getPicture(project.img))}
-            onFocus={() => changeBackground(project.gif ? getPicture(project.gif) : getPicture(project.img))}
-            onMouseLeave={() => document.getElementsByClassName("main")[0].style.background = "rgb(0, 0, 0)"}>
+        <article className="card" tabIndex={0}>
             <img className="card-img" src={getPicture(project.img)} />
             <div className="card-infos">
                 <p className="card-header">{project.title}</p>

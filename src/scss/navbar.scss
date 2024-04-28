@@ -18,12 +18,14 @@ nav {
     z-index: 100;
     .navLink:first-child {
         position: absolute;
-        top: .8rem;
+        top: 0.8rem;
     }
     .active {
         background: $accent_color;
         border-radius: 0 1rem 1rem 0;
-        box-shadow: $accent_color -2rem 0rem 0rem, rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
+        box-shadow:
+            $accent_color -2rem 0rem 0rem,
+            rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
         .navIcon {
             color: #f4fcfc;
         }
@@ -42,7 +44,9 @@ nav {
         }
         .active {
             border-radius: 0rem 0 1rem 1rem;
-            box-shadow: $accent_color 0rem -2rem 0rem, rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
+            box-shadow:
+                $accent_color 0rem -2rem 0rem,
+                rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
         }
     }
 }
@@ -70,7 +74,7 @@ nav {
 @keyframes startLink {
     0% {
         background: none;
-        translate: -.5rem;
+        translate: -0.5rem;
     }
     100% {
         background: $accent_color;
@@ -81,7 +85,7 @@ nav {
 @keyframes startLinkUp {
     0% {
         background: none;
-        translate: 0 -.5rem;
+        translate: 0 -0.5rem;
     }
     100% {
         background: $accent_color;

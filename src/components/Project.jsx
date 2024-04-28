@@ -18,7 +18,7 @@ export default function Project({
     <>
         <Navbar current={current}/>
         <div className="main">
-            <img className={`back ${background_class}`} src={background_src} alt=""/>
+            {/* <img className={`back ${background_class}`} src={background_src} alt=""/> */}
             <div className='content project'>
                 <img src={img_src} alt="" className={img_class}/>
                 <div className="infos">
