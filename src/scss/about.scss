@@ -16,7 +16,9 @@
     display: flex;
     color: $accent_text;
     flex-direction: column;
-    padding-left: 1rem;
+    @media screen and (min-width: 600px) {
+        padding-left: 1rem;
+    }
     h1 {
         color: $accent_color;
         margin: 0;

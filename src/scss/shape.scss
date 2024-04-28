@@ -74,6 +74,10 @@
 .position__3 {
     top: 40%;
     left: 10%;
+    @media screen and (min-width: 601px) {
+        top: 40%;
+        left: 30%;
+    }
 }
 
 .shape__1 {

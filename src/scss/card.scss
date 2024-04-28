@@ -9,7 +9,7 @@ a {
     max-width: 450px;
     height: 250px;
     border-radius: 1rem;
-    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.295);
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.2);
     display: flex;
     flex: 1 1;
     flex-direction: column;
@@ -31,9 +31,7 @@ a {
     &:active {
         overflow: hidden;
         cursor: pointer;
-        box-shadow:
-            inset $accent_color 0rem 0rem 0rem 0.2rem,
-            0rem 0rem 2rem 0.8rem rgba(0, 0, 0, 0.466);
+        box-shadow: inset $accent_color 0rem 0rem 0rem 0.2rem;
         .card-img {
             opacity: 20%;
             filter: blur(10px);
