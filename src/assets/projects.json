@@ -28,7 +28,11 @@
         "create_at": "2021/09/01",
         "update_at": "2022/12/01",
         "employers": "Conseil Départemental de la Gironde",
-        "visibility": "Private"
+        "visibility": "Private",
+        "gallery": [
+            "gallery/aegir/aegir1.jpg",
+            "gallery/aegir/aegir2.jpg"
+        ]
     },
     {
         "type": [
@@ -55,7 +59,7 @@
                 "name": "Website"
             }
         ],
-        "img": "mycater.png",
+        "img": "thumbnails/mycater.png",
         "create_at": "2023/04/04",
         "update_at": "2023/08/18",
         "employers": "MyCater (MyCompany)",
@@ -117,7 +121,11 @@
         "create_at": "2021/07/01",
         "update_at": "2021/12/01",
         "employers": "Conseil Départemental de la Gironde",
-        "visibility": "Private"
+        "visibility": "Private",
+        "gallery": [
+            "gallery/carttet/carttet1.jpg",
+            "gallery/carttet/carttet2.jpg"
+        ]
     },
     {
         "type": [
@@ -148,7 +156,12 @@
         "create_at": "2021/10/01",
         "update_at": "2021/12/01",
         "employers": "Conseil Départemental de la Gironde",
-        "visibility": "Private"
+        "visibility": "Private",
+        "gallery": [
+            "gallery/dsinplan/dsinplan1.jpg",
+            "gallery/dsinplan/dsinplan2.jpg",
+            "gallery/dsinplan/dsinplan3.jpg"
+        ]
     },
     {
         "type": [
@@ -168,11 +181,15 @@
                 "name": "Play"
             }
         ],
-        "gif": "ufo.gif",
-        "img": "ufo.png ",
+        "img": "thumbnails/ufo.png ",
         "create_at": "2023/01/06",
         "update_at": "2023/01/09",
-        "gamejam": "Ludum Dare 52"
+        "gamejam": "Ludum Dare 52",
+        "gallery": [
+            "gallery/ufo/ufo1.jpg",
+            "gallery/ufo/ufo2.jpg",
+            "gallery/ufo/ufo3.jpg"
+        ]
     },
     {
         "type": [
@@ -192,10 +209,17 @@
                 "name": "Download (APK)"
             }
         ],
-        "img": "blue.png ",
+        "img": "thumbnails/blue.png ",
         "create_at": "2022/03/01",
         "update_at": "2022/03/01",
-        "gamejam": "Epitech Jam"
+        "gamejam": "Epitech Jam",
+        "gallery": [
+            "gallery/blue/blue1.jpg",
+            "gallery/blue/blue2.jpg",
+            "gallery/blue/blue3.jpg",
+            "gallery/blue/blue4.jpg",
+            "gallery/blue/blue5.jpg"
+        ]
     },
     {
         "type": [
@@ -227,9 +251,16 @@
                 "name": "Website"
             }
         ],
-        "img": "herojs4.jpeg",
+        "img": "thumbnails/herojs4.jpeg",
         "create_at": "2021/10/03",
-        "update_at": "2022/10/14"
+        "update_at": "2022/10/14",
+        "gallery": [
+            "gallery/herojsv1/herojs1.jpg",
+            "gallery/herojsv1/herojs2.jpg",
+            "gallery/herojsv1/herojs3.jpg",
+            "gallery/herojsv1/herojs4.jpg",
+            "gallery/herojsv1/herojs5.jpg"
+        ]
     },
     {
         "type": [
@@ -268,7 +299,7 @@
                 "name": "Github"
             }
         ],
-        "img": "epitech.jpeg",
+        "img": "thumbnails/epitech.jpeg",
         "create_at": "2021/07/01",
         "update_at": "2022/08/15"
     },
@@ -306,7 +337,7 @@
                 "name": "Play all games"
             }
         ],
-        "img": "gamebundle.jpeg",
+        "img": "thumbnails/gamebundle.jpeg",
         "create_at": "2020/02/01",
         "update_at": "2023/01/01"
     },
@@ -332,7 +363,7 @@
                 "name": "Github"
             }
         ],
-        "img": "adventofcode.jpeg",
+        "img": "thumbnails/adventofcode.jpeg",
         "create_at": "2021/12/01",
         "update_at": "2022/12/15",
         "comments": [
@@ -367,7 +398,7 @@
                 "name": "Play"
             }
         ],
-        "img": "carottes.png",
+        "img": "thumbnails/carottes.png",
         "create_at": "2021/01/01",
         "update_at": "2021/01/01",
         "gamejam": "3 hours jam - Brazil",
@@ -399,7 +430,7 @@
                 "name": "Play"
             }
         ],
-        "img": "elle.png",
+        "img": "thumbnails/elle.png",
         "create_at": "2021/02/01",
         "update_at": "2021/02/01",
         "gamejam": "Epitech Jam - Past, Present and Future"
@@ -426,7 +457,7 @@
                 "name": "Play"
             }
         ],
-        "img": "family.jpeg",
+        "img": "thumbnails/family.jpeg",
         "create_at": "2022/05/01",
         "update_at": "2022/05/01",
         "gamejam": "Epitech Jam - Family"
@@ -464,7 +495,7 @@
         "type": [
             "game"
         ],
-        "title": "Klepto",
+        "title": "Klept'o",
         "description": "Thief! Steal as many objects as possible before the police arrive and catch you.",
         "tech": [
             {
@@ -495,7 +526,7 @@
                 "content": "This project can be found in the resources of the Bibliothèque Nationale de France (BNF). With it, I'm officially a 'Video game developer and computer graphics designer'!"
             }
         ],
-        "img": "klepto.png",
+        "img": "thumbnails/klepto.png",
         "create_at": "2021/01/25",
         "update_at": "2021/01/25",
         "gamejam": "Global Game Jam 2021 - Lost and Found"
@@ -550,7 +581,7 @@
                 "name": "Play"
             }
         ],
-        "img": "randomstory.png",
+        "img": "thumbnails/randomstory.png",
         "create_at": "2020/10/01",
         "update_at": "2020/10/01"
     },
@@ -572,7 +603,7 @@
                 "name": "Play"
             }
         ],
-        "img": "twins.png",
+        "img": "thumbnails/twins.png",
         "create_at": "2021/03/01",
         "update_at": "2021/03/01",
         "gamejam": "Epitech Jam #2 - Together"
@@ -595,7 +626,7 @@
                 "name": "Play"
             }
         ],
-        "img": "patrick.png",
+        "img": "thumbnails/patrick.png",
         "create_at": "2021/05/01",
         "update_at": "2021/05/01",
         "gamejam": "Epitech Jam #3 - Anonymity",
@@ -647,7 +678,7 @@
                 "name": "Website"
             }
         ],
-        "img": "quizz.jpeg",
+        "img": "thumbnails/quizz.jpeg",
         "create_at": "2022/08/15",
         "update_at": "2022/10/19",
         "comments": [
@@ -683,7 +714,7 @@
                 "name": "Github"
             }
         ],
-        "img": "trakt3.jpeg",
+        "img": "thumbnails/trakt.jpeg",
         "create_at": "2023/01/01",
         "update_at": "2023/07/01",
         "comments": [
@@ -691,6 +722,12 @@
                 "title": "Want to try?",
                 "content": "Want to try the site without a Trakt account? Try entering my username 'takaaase_'!"
             }
+        ],
+        "gallery": [
+            "gallery/traktwrapped/wrapped1.jpeg",
+            "gallery/traktwrapped/wrapped2.jpeg",
+            "gallery/traktwrapped/wrapped3.jpeg",
+            "gallery/traktwrapped/wrapped4.jpeg"
         ]
     },
     {
@@ -715,7 +752,7 @@
                 "name": "Github"
             }
         ],
-        "img": "wip.jpeg",
+        "img": "thumbnails/wip.jpeg",
         "create_at": "2023/01/30",
         "update_at": "2023/07/11",
         "comments": [

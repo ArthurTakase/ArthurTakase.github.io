@@ -65,6 +65,14 @@ export default function Modal({ project, open, setOpen })
                         ) })}
                     </div>
                 }
+                {!project.gallery || project.gallery?.length == 0
+                    ? <></>
+                    : <div className='modalGallery'>
+                        {project.gallery.map(picture => { return (
+                            <img key={picture} src={getPicture(picture)} />
+                        ) })}
+                    </div>
+                }
             </div>
         </Rodal>
     )
