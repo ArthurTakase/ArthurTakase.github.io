@@ -18,7 +18,9 @@ export default function Modal({ project, open, setOpen })
     return (
         <Rodal visible={open} onClose={() => { setOpen(false) }} closeOnEsc className="modal" animation="zoom">
             <div className="modalContent">
-                <img className="modalHeaderPicture" src={getPicture(project.img)} />
+                <div className='modalPictureZone'>
+                    <img className="modalHeaderPicture" src={getPicture(project.img)} />
+                </div>
                 <div className='modalInfos'>
                     <div className="modalTitle">{project.title}</div>
                     <div className="moadlTag">

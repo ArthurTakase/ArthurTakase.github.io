@@ -23,10 +23,17 @@
             min-width: 95svw;
         }
     }
-    .modalHeaderPicture {
+    .modalPictureZone {
         height: 150px;
         width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .modalHeaderPicture {
+        width: 100%;
+        position: absolute;
         object-fit: cover;
+        top: -100%;
     }
     .modalInfos {
         padding-left: 1rem;
@@ -47,7 +54,6 @@
         font-size: 1.2rem;
         font-weight: bold;
         a {
-            // border: solid $accent_color 0.1rem;
             border-radius: 5px;
             padding: 0.2rem;
         }
