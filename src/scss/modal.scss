@@ -112,6 +112,15 @@
             width: fit-content;
         }
     }
+    .modalSubtitle {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        font-size: 1.2rem;
+        font-weight: light;
+        opacity: 0.5;
+        margin: 0;
+    }
     .modalGallery {
         display: flex;
         flex-direction: row;

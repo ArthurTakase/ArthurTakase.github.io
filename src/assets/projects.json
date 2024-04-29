@@ -557,6 +557,12 @@
                 "title": "ISN",
                 "content": "Initially, this project was to be submitted for a final exam (baccalauréat). But I finished it too quickly and had to find other ideas to present."
             }
+        ],
+        "gallery": [
+            "gallery/labyrunner/runner1.png",
+            "gallery/labyrunner/runner2.png",
+            "gallery/labyrunner/runner3.png",
+            "gallery/labyrunner/runner4.png"
         ]
     },
     {
@@ -678,7 +684,7 @@
                 "name": "Website"
             }
         ],
-        "img": "thumbnails/quizz.jpeg",
+        "img": "thumbnails/peipln.png",
         "create_at": "2022/08/15",
         "update_at": "2022/10/19",
         "comments": [
