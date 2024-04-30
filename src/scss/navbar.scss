@@ -49,6 +49,13 @@ nav {
                 rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
         }
     }
+    @media only screen and (max-height: 500px) {
+        justify-content: space-around;
+        gap: 0;
+        .navLink:first-child {
+            position: static;
+        }
+    }
 }
 
 .navLink {
