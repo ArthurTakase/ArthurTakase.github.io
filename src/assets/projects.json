@@ -165,7 +165,8 @@
     },
     {
         "type": [
-            "game"
+            "fav",
+            "archive"
         ],
         "title": "UFO County",
         "description": "Explore an island with your spaceship to bring back a lot of stuff to your planet.",
@@ -193,7 +194,8 @@
     },
     {
         "type": [
-            "game"
+            "fav",
+            "archive"
         ],
         "title": "Blue.",
         "description": "VR Cardboard game about the color blue.",
@@ -223,7 +225,7 @@
     },
     {
         "type": [
-            "perso"
+            "archive"
         ],
         "title": "Hero.js (V1)",
         "description": "JS game engine for Visual Novel games.",
@@ -245,10 +247,6 @@
             {
                 "url": "https://github.com/ArthurTakase/Hero.js ",
                 "name": "Github"
-            },
-            {
-                "url": "https://arthurtakase.github.io/Hero.js/",
-                "name": "Website"
             }
         ],
         "img": "thumbnails/herojs4.jpeg",
@@ -264,7 +262,7 @@
     },
     {
         "type": [
-            "perso"
+            "archive"
         ],
         "title": "Epitech Bundle",
         "description": "All projects at Epitech (tek1, 2 and 3).",
@@ -305,7 +303,7 @@
     },
     {
         "type": [
-            "perso"
+            "archive"
         ],
         "title": "LittleGamesBundle",
         "description": "Compilation of the different games I've developed so far.",
@@ -343,7 +341,7 @@
     },
     {
         "type": [
-            "perso"
+            "archive"
         ],
         "title": "Advent of Code",
         "description": "Programming advent calendar. I never get to the end but it's fun anyway !",
@@ -379,7 +377,7 @@
     },
     {
         "type": [
-            "game"
+            "archive"
         ],
         "title": "Carotte",
         "description": "'Brazil'. Don't let your plantations catch fire! Water them as much as possible to keep as much as possible at the end of the timer.",
@@ -411,7 +409,7 @@
     },
     {
         "type": [
-            "game"
+            "archive"
         ],
         "title": "Elle",
         "description": "Follow the story of a young man through different periods of his life.",
@@ -437,7 +435,7 @@
     },
     {
         "type": [
-            "perso"
+            "archive"
         ],
         "title": "Family Jam",
         "description": "Epitech Jam #6 'Family'",
@@ -464,7 +462,8 @@
     },
     {
         "type": [
-            "game"
+            "fav",
+            "archive"
         ],
         "title": "Feed The Panda",
         "description": "Feed a beautiful little panda with the burgers he asks for !",
@@ -493,7 +492,8 @@
     },
     {
         "type": [
-            "game"
+            "fav",
+            "archive"
         ],
         "title": "Klept'o",
         "description": "Thief! Steal as many objects as possible before the police arrive and catch you.",
@@ -533,7 +533,7 @@
     },
     {
         "type": [
-            "game"
+            "archive"
         ],
         "title": "LabyRunner",
         "description": "Arcade game where you go through labyrinths to make the best score possible.",
@@ -567,7 +567,7 @@
     },
     {
         "type": [
-            "game"
+            "archive"
         ],
         "title": "Random Story",
         "description": "JS adaptation of the game 'Comment j'ai adopté un gnou' where you have to create a story from different elements",
@@ -593,7 +593,8 @@
     },
     {
         "type": [
-            "game"
+            "fav",
+            "archive"
         ],
         "title": "Twins",
         "description": "Make your way through a dark forest with the help of a strange ally.",
@@ -616,7 +617,7 @@
     },
     {
         "type": [
-            "game"
+            "archive"
         ],
         "title": "Where is Patrick ?",
         "description": "Can you find Patrick in the crowd?",
@@ -645,7 +646,7 @@
     },
     {
         "type": [
-            "game"
+            "archive"
         ],
         "title": "Escape from Michelov",
         "description": "Explore an abandoned town while escaping a monstrous gorilla in this horror game inspired by The Forest.",
@@ -668,7 +669,7 @@
     },
     {
         "type": [
-            "perso"
+            "archive"
         ],
         "title": "PeipLn",
         "description": "PeipLn is a question prompter and score manager. With it, you don't need to bother with your quiz nights anymore, just put everything in a JSON and go! ",
@@ -696,7 +697,8 @@
     },
     {
         "type": [
-            "perso"
+            "fav",
+            "archive"
         ],
         "title": "Trakt Wrapped",
         "description": "Like Spotify Wrapped, but for Trakt.tv.",
@@ -720,7 +722,7 @@
                 "name": "Github"
             }
         ],
-        "img": "thumbnails/trakt.jpeg",
+        "img": "thumbnails/traktWrapped.jpg",
         "create_at": "2023/01/01",
         "update_at": "2023/07/01",
         "comments": [
@@ -738,7 +740,8 @@
     },
     {
         "type": [
-            "perso"
+            "fav",
+            "archive"
         ],
         "title": "Hero.js (V2)",
         "description": "JS game engine for Visual Novel games.",
@@ -770,6 +773,39 @@
                 "title": "New features",
                 "content": "This new version of Hero.JS aims to completely overhaul the generator to make the games even more customisable. Unfortunately it's taking a long time to get going, but the project is still underway."
             }
+        ]
+    },
+    {
+        "type": [
+            "fav",
+            "archive"
+        ],
+        "title": "Odysseus",
+        "description": "Explore lunar phenomena in AR through interactive animations!",
+        "tech": [
+            {
+                "name": "Unity",
+                "logo": "fa-brands fa-unity"
+            }
+        ],
+        "link": [],
+        "img": "thumbnails/odysseus.jpg",
+        "create_at": "2025/01/01",
+        "update_at": "2025/01/01",
+        "comments": [
+            {
+                "title": "Want to try?",
+                "content": "The application is being processed on Google's servers, the download link will be available soon!!"
+            }
+        ],
+        "gallery": [
+            "gallery/odysseus/1.jpg",
+            "gallery/odysseus/2.jpg",
+            "gallery/odysseus/3.jpg",
+            "gallery/odysseus/4.jpg",
+            "gallery/odysseus/5.jpg",
+            "gallery/odysseus/6.jpg",
+            "gallery/odysseus/7.jpg"
         ]
     }
 ]

@@ -6,9 +6,8 @@ export default function Navbar({current}) {
     return (
         <nav>
             <NavlinkPicture current={current} to="about" img='../assets/icon.jpeg' />
-            <Navlink current={current} to="pro" icon="bx-buildings" />
-            <Navlink current={current} to="perso" icon="bx-user" />
-            <Navlink current={current} to="game" icon="bx-joystick-alt" />
+            <Navlink current={current} to="fav" icon="bxs-star" />
+            <Navlink current={current} to="archive" icon="bxs-archive" />
 
             {
                 bigProject.map(project => (

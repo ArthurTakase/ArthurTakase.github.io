@@ -12,6 +12,10 @@ export default function Project({
         macaron
     }
 }) {
+    desc = desc.split('\n').map((item, key) => {
+        return <span key={key}>{item}<br/></span>
+    })
+
     return (
     <>
         <Navbar current={current}/>
@@ -22,7 +26,9 @@ export default function Project({
                     { macaron ? <div className="macaron">{macaron}</div> : <></> }
                     <h1>{title}</h1>
                     <p>{desc}</p>
+                    {link === '' || link === undefined ? <></> :
                     <a href={link} target={"_blank"}><i className='bx bx-play'></i></a>
+                    }
                 </div>
             </div>
         </div>

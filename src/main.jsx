@@ -20,9 +20,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Routes>
             <Route path='/' element={<About />} />
             <Route path='/about' element={<About />} />
-            <Route path='/game' element={<List type="game" />} />
-            <Route path='/pro' element={<List type="pro" />} />
-            <Route path='/perso' element={<List type="perso" />} />
+            <Route path='/archive' element={<List type="archive" />} />
+            <Route path='/fav' element={<List type="fav" />} />
             {
                 bigProject.map(project => (
                     <Route
