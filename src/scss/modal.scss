@@ -1,4 +1,4 @@
-@import "colors.scss";
+@use "colors.scss";
 .modal {
     background: rgba(0, 0, 0, 0.8);
     backdrop-filter: blur(10px);
@@ -13,8 +13,8 @@
         max-height: 90svh;
         overflow: hidden;
         padding: 0;
-        background: $nav_back;
-        color: $accent_text;
+        background: colors.$nav_back;
+        color: colors.$accent_text;
         box-shadow: #00000034 0rem 0.5rem 0.5rem;
         backdrop-filter: blur(30px);
         padding-bottom: 1rem;
@@ -45,12 +45,12 @@
         align-items: center;
     }
     .modalTitle {
-        color: $accent_color;
+        color: colors.$accent_color;
         font-size: 1.5rem;
         font-weight: bold;
     }
     .moadlTag {
-        color: $accent_color;
+        color: colors.$accent_color;
         font-size: 1.2rem;
         font-weight: bold;
         a {
@@ -105,7 +105,7 @@
         }
     }
     .modalLink {
-        color: $accent_color_2;
+        color: colors.$accent_color_2;
         padding-left: 1rem;
         padding-right: 1rem;
         padding-top: 1rem;

@@ -1,6 +1,6 @@
-@import "colors.scss";
+@use "colors.scss";
 nav {
-    background: $nav_back;
+    background: colors.$nav_back;
     backdrop-filter: blur(30px);
     display: flex;
     flex-direction: column;
@@ -21,16 +21,16 @@ nav {
         top: 0.8rem;
     }
     .active {
-        background: $accent_color;
+        background: colors.$accent_color;
         border-radius: 0 1rem 1rem 0;
         box-shadow:
-            $accent_color -2rem 0rem 0rem,
+            colors.$accent_color -2rem 0rem 0rem,
             rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
         .navIcon {
             color: #f4fcfc;
         }
         .pp {
-            border: solid $accent_color 0.3rem;
+            border: solid colors.$accent_color 0.3rem;
         }
     }
     @media only screen and (max-width: 600px) {
@@ -45,7 +45,7 @@ nav {
         .active {
             border-radius: 0rem 0 1rem 1rem;
             box-shadow:
-                $accent_color 0rem -2rem 0rem,
+                colors.$accent_color 0rem -2rem 0rem,
                 rgba(0, 0, 0, 0.301) 0rem 0.5rem 0.5rem;
         }
     }
@@ -84,7 +84,7 @@ nav {
         translate: -0.5rem;
     }
     100% {
-        background: $accent_color;
+        background: colors.$accent_color;
         translate: 0rem;
     }
 }
@@ -95,18 +95,18 @@ nav {
         translate: 0 -0.5rem;
     }
     100% {
-        background: $accent_color;
+        background: colors.$accent_color;
         translate: 0rem;
     }
 }
 
 .navIcon {
-    color: $icon_color;
+    color: colors.$icon_color;
     font-size: 1.8rem;
 }
 
 .navText {
-    color: $accent_text;
+    color: colors.$accent_text;
 }
 
 .pp {

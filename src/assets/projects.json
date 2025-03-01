@@ -807,5 +807,33 @@
             "gallery/odysseus/6.jpg",
             "gallery/odysseus/7.jpg"
         ]
+    },
+    {
+        "type": [
+            "archive"
+        ],
+        "title": "Untitled God Game",
+        "description": "Take control of a world you shape according to your desires.\n\nModify the terrain by sculpting mountains and valleys, adjust temperatures to influence biomes, then introduce animals and watch them evolve in this unique ecosystem. Once your world is created, dive into virtual reality to explore it from within and see your creatures interact in real time.\n\nBy default, two animals are available, but with accessible documentation on GitHub, you can add your own species and enrich the game with community-created mods.\n\nExperiment, observe, and let nature take its course!",
+        "tech": [
+            {
+                "name": "Unity",
+                "logo": "fa-brands fa-unity"
+            }
+        ],
+        "link": [
+            {
+                "url": "https://sidequestvr.com/app/41194/untitled-god-game",
+                "name": "Sidequest"
+            }
+        ],
+        "img": "https://cdn.sidequestvr.com/file/1930341/thumbnail-guidelinesfinal-upscaled.png?size=512",
+        "create_at": "2025/02/01",
+        "update_at": "2025/02/01",
+        "gallery": [
+            "https://cdn.sidequestvr.com/file/1930320/1.png?size=1024",
+            "https://cdn.sidequestvr.com/file/1930321/2.png?size=1024",
+            "https://cdn.sidequestvr.com/file/1930322/3.png?size=1024",
+            "https://cdn.sidequestvr.com/file/1930323/4.png?size=1024"
+        ]
     }
 ]

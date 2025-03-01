@@ -1,4 +1,4 @@
-@import "colors.scss";
+@use "colors.scss";
 .back {
     &.about-back {
         opacity: 0.2 !important;
@@ -14,13 +14,13 @@
     width: 100%;
     height: 100%;
     display: flex;
-    color: $accent_text;
+    color: colors.$accent_text;
     flex-direction: column;
     @media screen and (min-width: 600px) {
         padding-left: 1rem;
     }
     h1 {
-        color: $accent_color;
+        color: colors.$accent_color;
         margin: 0;
         padding: 0;
         font-size: 5rem;
@@ -57,8 +57,8 @@
         padding-top: 2rem;
         a {
             transition: width 0.5s;
-            background: $nav_back;
-            color: $icon_color;
+            background: colors.$nav_back;
+            color: colors.$icon_color;
             box-shadow: #00000034 0rem 0.5rem 0.5rem;
             border-radius: 1rem;
             font-weight: bold;
@@ -80,7 +80,7 @@
                 display: none;
                 opacity: 0;
                 width: 0%;
-                color: $accent_text;
+                color: colors.$accent_text;
                 animation: maxSize 0.5s;
                 @keyframes maxSize {
                     0% {
@@ -106,8 +106,8 @@
                 &:nth-child(4) {
                     width: 4.8rem;
                 }
-                background: rgba($accent_color, 0.5);
-                color: $accent_text;
+                background: rgba(colors.$accent_color, 0.5);
+                color: colors.$accent_text;
                 justify-content: left;
                 p {
                     opacity: 1;

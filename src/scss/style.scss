@@ -1,4 +1,4 @@
-@import "colors.scss";
+@use "colors.scss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 html {
     margin: 0;
@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: $backgroud_color;
+    background: colors.$backgroud_color;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -52,7 +52,7 @@ body {
             position: absolute;
             width: 0.5rem;
             height: 50vh;
-            background: $accent_color;
+            background: colors.$accent_color;
             left: 6.25rem;
             bottom: 0;
             @media only screen and (max-width: 600px) {
@@ -85,12 +85,12 @@ body {
                     width: 1rem;
                     height: 1rem;
                     border-radius: 50%;
-                    border: solid $accent_color 0.4rem;
-                    background: $nav_back;
+                    border: solid colors.$accent_color 0.4rem;
+                    background: colors.$nav_back;
                     backdrop-filter: blur(10px);
                 }
                 .title {
-                    color: $accent_color;
+                    color: colors.$accent_color;
                     font-size: 1.5rem;
                     font-weight: 600;
                 }
@@ -101,7 +101,7 @@ body {
                 flex-wrap: wrap;
                 width: 100%;
                 gap: 1rem;
-                border-left: solid $accent_color 0.5rem;
+                border-left: solid colors.$accent_color 0.5rem;
                 padding-left: 1rem;
                 padding-top: 1.5rem;
                 padding-bottom: 1.5rem;

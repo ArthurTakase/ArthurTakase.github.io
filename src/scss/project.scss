@@ -1,4 +1,4 @@
-@import "colors.scss";
+@use "colors.scss";
 
 .project {
     .macaron {
@@ -12,11 +12,11 @@
         align-items: center;
         padding-left: 0.6rem;
         padding-right: 0.6rem;
-        color: $accent_color;
+        color: colors.$accent_color;
         border-radius: 0.5rem;
     }
     h1 {
-        color: $accent_color;
+        color: colors.$accent_color;
         padding: 0;
         margin: 0;
         margin-bottom: 0.8rem;
@@ -24,13 +24,13 @@
     p {
         padding: 0;
         margin: 0;
-        color: $accent_text;
+        color: colors.$accent_text;
         text-align: justify;
         padding-left: 1rem;
         padding-right: 1rem;
     }
     a {
-        color: $accent_text;
+        color: colors.$accent_text;
         text-decoration: none;
         display: flex;
         justify-content: center;
@@ -42,7 +42,7 @@
         height: 40px;
         width: 40px;
         font-size: 1.5rem;
-        background-color: $accent_color;
+        background-color: colors.$accent_color;
         border-radius: 0.5rem;
         transition: scale 0.2s;
         &:hover {
@@ -59,7 +59,7 @@
         margin: 1rem;
         padding: 1rem;
         padding-bottom: 3rem;
-        background: $nav_back;
+        background: colors.$nav_back;
         backdrop-filter: blur(30px);
         border-radius: 1rem;
         max-width: 50rem;

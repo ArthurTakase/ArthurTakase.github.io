@@ -15,6 +15,10 @@ export default function Modal({ project, open, setOpen })
         return `../assets/${url}`
     }
 
+    const description = project.description.split('\n').map((item, key) => {
+        return <span key={key}>{item}<br/></span>
+    })
+
     return (
         <Rodal visible={open} onClose={() => { setOpen(false) }} closeOnEsc className="modal" animation="zoom">
             <div className="modalContent">
@@ -46,7 +50,7 @@ export default function Modal({ project, open, setOpen })
                     }
                 </div>
                 <div className="modalDescription">
-                    {project.description}
+                    {description}
                 </div>
                 <div className="modalLink">
                     {project.link.map(link => { return (
