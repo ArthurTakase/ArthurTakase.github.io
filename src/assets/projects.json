@@ -788,7 +788,12 @@
                 "logo": "fa-brands fa-unity"
             }
         ],
-        "link": [],
+        "link": [
+            {
+                "url": "https://github.com/ArthurTakase/Odysseus",
+                "name": "Github"
+            }
+        ],
         "img": "thumbnails/odysseus.jpg",
         "create_at": "2025/01/01",
         "update_at": "2025/01/01",
@@ -824,6 +829,10 @@
             {
                 "url": "https://sidequestvr.com/app/41194/untitled-god-game",
                 "name": "Sidequest"
+            },
+            {
+                "url": "https://github.com/ArthurTakase/UntitledGodGame",
+                "name": "Github"
             }
         ],
         "img": "https://cdn.sidequestvr.com/file/1930341/thumbnail-guidelinesfinal-upscaled.png?size=512",
