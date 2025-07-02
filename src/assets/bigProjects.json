@@ -7,7 +7,19 @@
         "desc": "Like Spotify Wrapped, but for Trakt.tv. Trakt Wrapped is a website that allows you to see your statistics on Trakt.tv. You can see your most watched movies, series, actors, directors, ...",
         "link": "https://trakt-wrapped.vercel.app/",
         "img_src": "../assets/bigProjects/traktWrapped/lalaland.png",
-        "img_class": "height_80 radius_1 width_80_xs"
+        "img_class": "height_90 bottom",
+        "macaron": "Try it in your browser !"
+    },
+    {
+        "path": "/slyVR",
+        "current": "slyVR",
+        "navbar_img": "../assets/bigProjects/SlyVR/Logo.png",
+        "title": "SlyVR",
+        "desc": "Plongez dans un jeu d'infiltration où vous vous déplacez par vos propres mouvements. Sautez de toit en toit, évitez les gardes et infiltrez un poste de police pour voler des documents top secrets. Discrétion ou agilité : à vous de jouer.",
+        "link": "https://sidequestvr.com/app/42924/slyvr",
+        "img_src": "../assets/bigProjects/SlyVR/Sly.png",
+        "img_class": "height_90 bottom",
+        "macaron": "Download now on SideQuest !"
     },
     {
         "path": "/odysseus",
@@ -16,7 +28,7 @@
         "title": "Odysseus",
         "desc": "🌕 Discover the Mysteries of the Moon in Augmented Reality! 🌕\n\nDive into the heart of lunar phenomena with our augmented reality app! Explore the different phases of the Moon and their secrets through interactive and narrated animations.\n\n🚀 Download now and embark on a journey to discover the Moon like never before!",
         "img_src": "../assets/bigProjects/Odysseus/odysseusSpace.png",
-        "img_class": "height_100 bottom",
+        "img_class": "height_90 bottom",
         "macaron": "Coming soon to the Play Store !"
     }
 ]

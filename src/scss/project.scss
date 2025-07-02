@@ -25,7 +25,7 @@
         padding: 0;
         margin: 0;
         color: colors.$accent_text;
-        text-align: justify;
+        text-align: left;
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -84,6 +84,9 @@
         }
         &.height_100 {
             height: 100vh;
+        }
+        &.height_90 {
+            height: 90vh;
         }
         &.height_80 {
             height: 80vh;

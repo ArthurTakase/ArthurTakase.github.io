@@ -32,6 +32,11 @@ export default function Modal({ project, open, setOpen })
                     </div>
                 </div>
                 <div className="modalSubInfos">
+                    {
+                        project.update_at != project.create_at
+                        ? <span>Last update: {formatDate(project.update_at)}</span>
+                        : <></>
+                    }
                     <span>Created at: {formatDate(project.create_at)}</span>
                     {
                         project.employers
