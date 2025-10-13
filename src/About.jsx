@@ -17,7 +17,7 @@ export default function About() {
                 <p>Hi, I'm</p>
                 <h1>ARTHUR DECAEN</h1>
                 <p>
-                    Studying for a Masters (Epitech MSC) after 3 years at Epitech.<br />
+                    Unity XR Developer at YZAR (Bordeaux).<br />
                     I code, I draw and in between, I watch Movies.
                 </p>
                 <div className='btn-zone'>
